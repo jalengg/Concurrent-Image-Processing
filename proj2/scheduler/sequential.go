@@ -1,12 +1,16 @@
 package scheduler
 import (
-	"encoding/JSON"
+	"encoding/json"
+	"strings"
 	"proj2/png"
 	"fmt"
 	"os"
 	"image"
 	"io"
 )
+
+
+type request = png.Request
 
 func read() *json.Decoder{
 	effectsPathFile := fmt.Sprintf("../data/effects.txt")
@@ -15,39 +19,37 @@ func read() *json.Decoder{
 	return reader
 }
 
-type request struct {
-	InPath 		string 
-	OutPath		string 
-	Effects 	[]string 
-	size		string	
-}
+
 
 func process(request *request) {
-	filePath := fmt.Sprint("../data/in/", request.size, "/", request.InPath)
+	filePath := fmt.Sprint("../data/in/", request.Size, "/", request.InPath)
 	
 	//Loads the png image and returns the image or an error
-	pngImg, err := png.Load(filePath)
+	pngImg, err := png.Load(filePath, request)
 	if err != nil {
 		panic(err)
 	}
 
 	for i, effect := range request.Effects {
+		bounds := pngImg.Out.Bounds()
 		if i!=0 {
 			pngImg.In = pngImg.Out
-			pngImg.Out = image.NewRGBA64(pngImg.Out.Bounds())
+			pngImg.Out = image.NewRGBA64(bounds)
 		}
 		switch effect{
 		case "S":
-			pngImg.Sharpen()
+			pngImg.Sharpen(bounds.Min.Y, bounds.Max.Y)
 		case "E":
-			pngImg.Edge()
+			pngImg.Edge(bounds.Min.Y, bounds.Max.Y)
 		case "B":
-			pngImg.Blur()
+			pngImg.Blur(bounds.Min.Y, bounds.Max.Y)
+		case "G":
+			pngImg.Grayscale(bounds.Min.Y, bounds.Max.Y)
 		}
 	}
 	
 	//Saves the image to a new file
-	OutPath := fmt.Sprint("../data/out/", request.InPath)
+	OutPath := fmt.Sprint("../data/out/", request.Size,"_",request.OutPath)
 	err = pngImg.Save(OutPath)
 
 	//Checks to see if there were any errors when saving.
@@ -58,17 +60,19 @@ func process(request *request) {
 }
 
 func RunSequential(config Config) {
-	dec := read()
-	for true {
-		var request request
-		
-		err := dec.Decode(&request)
-		if err == io.EOF {
-			break
+	
+	sizes := strings.Split(config.DataDirs, "+")
+
+	for _, size := range sizes {
+		dec := read()
+		for true {
+			var request request
+			err := dec.Decode(&request)
+			if err == io.EOF {
+				break
+			}
+			request.Size = size
+			process(&request)
 		}
-
-		request.size = config.DataDirs
-
-		process(&request)
 	}
 }

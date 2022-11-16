@@ -10,21 +10,30 @@ import (
 	"os"
 )
 
-// The Image represents a structure for working with PNG images.
+// The ImageTask represents a structure for working with PNG images.
 // From Professor Samuels: You are allowed to update this and change it as you wish!
-type Image struct {
-	In     *image.RGBA64   //The original pixels before applying the effect
-	Out    *image.RGBA64   //The updated pixels after applying teh effect
-	Bounds image.Rectangle //The size of the image
+type ImageTask struct {
+	In     	*image.RGBA64   //The original pixels before applying the effect
+	Out    	*image.RGBA64   //The updated pixels after applying teh effect
+	Bounds 	image.Rectangle //The size of the ImageTask
+	Request *Request
+	Done 	bool //done flag for synchronization in BSP
+}
+
+type Request struct {
+	InPath 		string 
+	OutPath		string 
+	Effects 	[]string 
+	Size		string	
 }
 
 //
 // Public functions
 //
 
-// Load returns a Image that was loaded based on the filePath parameter
+// Load returns a ImageTask that was loaded based on the filePath parameter
 // From Professor Samuels:  You are allowed to modify and update this as you wish
-func Load(filePath string) (*Image, error) {
+func Load(filePath string, req *Request) (*ImageTask, error) {
 
 	inReader, err := os.Open(filePath)
 
@@ -50,16 +59,17 @@ func Load(filePath string) (*Image, error) {
 			inImg.Set(x, y, color.RGBA64{uint16(r), uint16(g), uint16(b), uint16(a)})
 		}
 	}
-	task := &Image{}
+	task := &ImageTask{}
 	task.In = inImg
 	task.Out = outImg
 	task.Bounds = bounds
+	task.Request = req
 	return task, nil
 }
 
-// Save saves the image to the given file
+// Save saves the ImageTask to the given file
 // From Professor Samuels:  You are allowed to modify and update this as you wish
-func (img *Image) Save(filePath string) error {
+func (img *ImageTask) Save(filePath string) error {
 
 	outWriter, err := os.Create(filePath)
 	if err != nil {
