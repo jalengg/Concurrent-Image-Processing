@@ -77,7 +77,6 @@ func barrier(ctx *bspWorkerContext) {
 
 	ctx.threadCounter++
 
-	fmt.Println(ctx.threadCounter, ctx.thread)
 	if ctx.threadCounter == ctx.thread {
 		ctx.effectIndex++
 		if ctx.effectIndex == ctx.effectLen {

@@ -1,0 +1,134 @@
+small
+================
+1
+
+real	0m11.613s
+user	0m8.854s
+sys	0m0.367s
+
+real	0m10.204s
+user	0m8.637s
+sys	0m0.404s
+
+real	0m9.068s
+user	0m8.231s
+sys	0m0.262s
+
+real	0m10.979s
+user	0m8.746s
+sys	0m0.328s
+
+real	0m10.051s
+user	0m8.554s
+sys	0m0.343s
+2
+
+real	0m9.181s
+user	0m9.114s
+sys	0m0.360s
+
+real	0m7.593s
+user	0m8.704s
+sys	0m0.321s
+
+real	0m7.562s
+user	0m8.746s
+sys	0m0.311s
+
+real	0m7.933s
+user	0m8.869s
+sys	0m0.318s
+
+real	0m9.381s
+user	0m9.123s
+sys	0m0.372s
+4
+
+real	0m8.409s
+user	0m8.729s
+sys	0m0.378s
+
+real	0m9.208s
+user	0m8.860s
+sys	0m0.362s
+
+real	0m8.415s
+user	0m8.719s
+sys	0m0.363s
+
+real	0m8.426s
+user	0m8.734s
+sys	0m0.330s
+
+real	0m8.767s
+user	0m8.896s
+sys	0m0.336s
+6
+
+real	0m8.425s
+user	0m8.648s
+sys	0m0.357s
+
+real	0m8.675s
+user	0m8.673s
+sys	0m0.353s
+
+real	0m8.984s
+user	0m8.665s
+sys	0m0.346s
+
+real	0m8.255s
+user	0m8.636s
+sys	0m0.354s
+
+real	0m8.165s
+user	0m8.549s
+sys	0m0.326s
+8
+
+real	0m7.729s
+user	0m9.052s
+sys	0m0.278s
+
+real	0m7.518s
+user	0m9.035s
+sys	0m0.294s
+
+real	0m7.636s
+user	0m9.019s
+sys	0m0.305s
+
+real	0m7.100s
+user	0m8.825s
+sys	0m0.285s
+
+real	0m7.170s
+user	0m8.971s
+sys	0m0.284s
+10
+
+real	0m7.219s
+user	0m8.983s
+sys	0m0.290s
+
+real	0m7.284s
+user	0m9.119s
+sys	0m0.291s
+
+real	0m7.383s
+user	0m9.059s
+sys	0m0.292s
+
+real	0m7.794s
+user	0m9.121s
+sys	0m0.299s
+
+real	0m9.986s
+user	0m9.636s
+sys	0m0.385s
+12
+signal: interrupt
+
+real	0m7.860s
+user	0m8.110s
+sys	0m0.328s
