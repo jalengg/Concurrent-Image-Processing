@@ -1,134 +1,1602 @@
 small
 ================
 1
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m11.613s
-user	0m8.854s
-sys	0m0.367s
+goroutine 1 [running]:
+proj2/scheduler.process(0xc0000be000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
+proj2/scheduler.RunSequential(0x7ffc698eb087, 0x5, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
+proj2/scheduler.Schedule(0x7ffc698eb087, 0x5, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.62user 0.36system 0:03.60elapsed 27%CPU (0avgtext+0avgdata 55476maxresident)k
+44608inputs+8944outputs (74major+29385minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m10.204s
-user	0m8.637s
-sys	0m0.404s
+goroutine 1 [running]:
+proj2/scheduler.process(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
+proj2/scheduler.RunSequential(0x7ffc272bd087, 0x5, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
+proj2/scheduler.Schedule(0x7ffc272bd087, 0x5, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.18system 0:00.59elapsed 102%CPU (0avgtext+0avgdata 56744maxresident)k
+16inputs+8256outputs (1major+21351minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m9.068s
-user	0m8.231s
-sys	0m0.262s
+goroutine 1 [running]:
+proj2/scheduler.process(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
+proj2/scheduler.RunSequential(0x7ffdd37cf087, 0x5, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
+proj2/scheduler.Schedule(0x7ffdd37cf087, 0x5, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.20system 0:00.56elapsed 110%CPU (0avgtext+0avgdata 55732maxresident)k
+0inputs+8256outputs (1major+21565minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m10.979s
-user	0m8.746s
-sys	0m0.328s
+goroutine 1 [running]:
+proj2/scheduler.process(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
+proj2/scheduler.RunSequential(0x7ffc8bfcc087, 0x5, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
+proj2/scheduler.Schedule(0x7ffc8bfcc087, 0x5, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.19system 0:00.59elapsed 104%CPU (0avgtext+0avgdata 56556maxresident)k
+0inputs+8256outputs (1major+21382minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m10.051s
-user	0m8.554s
-sys	0m0.343s
+goroutine 1 [running]:
+proj2/scheduler.process(0xc0000be000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
+proj2/scheduler.RunSequential(0x7ffd050f1087, 0x5, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
+proj2/scheduler.Schedule(0x7ffd050f1087, 0x5, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.19system 0:00.60elapsed 103%CPU (0avgtext+0avgdata 55544maxresident)k
+0inputs+8256outputs (1major+21117minor)pagefaults 0swaps
 2
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m9.181s
-user	0m9.114s
-sys	0m0.360s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffca2fb3081, 0x5, 0x7ffca2fb3087, 0x3, 0x2, 0x63752464)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffca2fb3081, 0x5, 0x7ffca2fb3087, 0x3, 0x2)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.47user 0.16system 0:00.89elapsed 71%CPU (0avgtext+0avgdata 56656maxresident)k
+0inputs+8280outputs (1major+21681minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m7.593s
-user	0m8.704s
-sys	0m0.321s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fff2e985081, 0x5, 0x7fff2e985087, 0x3, 0x2, 0x63752465)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fff2e985081, 0x5, 0x7fff2e985087, 0x3, 0x2)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.40user 0.23system 0:00.56elapsed 113%CPU (0avgtext+0avgdata 56916maxresident)k
+0inputs+8256outputs (1major+21699minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m7.562s
-user	0m8.746s
-sys	0m0.311s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d6000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffdcc8a3081, 0x5, 0x7ffdcc8a3087, 0x3, 0x2, 0x63752465)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffdcc8a3081, 0x5, 0x7ffdcc8a3087, 0x3, 0x2)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.43user 0.19system 0:00.66elapsed 94%CPU (0avgtext+0avgdata 57148maxresident)k
+0inputs+8256outputs (1major+21873minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m7.933s
-user	0m8.869s
-sys	0m0.318s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fff6d9e2081, 0x5, 0x7fff6d9e2087, 0x3, 0x2, 0x63752466)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fff6d9e2081, 0x5, 0x7fff6d9e2087, 0x3, 0x2)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.39user 0.24system 0:00.63elapsed 100%CPU (0avgtext+0avgdata 56648maxresident)k
+0inputs+8256outputs (1major+21692minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m9.381s
-user	0m9.123s
-sys	0m0.372s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffce22aa081, 0x5, 0x7ffce22aa087, 0x3, 0x2, 0x63752467)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffce22aa081, 0x5, 0x7ffce22aa087, 0x3, 0x2)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.45user 0.20system 0:00.62elapsed 107%CPU (0avgtext+0avgdata 55916maxresident)k
+0inputs+8256outputs (1major+21630minor)pagefaults 0swaps
 4
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m8.409s
-user	0m8.729s
-sys	0m0.378s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000da000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fff9fb8f081, 0x5, 0x7fff9fb8f087, 0x3, 0x4, 0x63752467)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fff9fb8f081, 0x5, 0x7fff9fb8f087, 0x3, 0x4)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.46user 0.19system 0:00.64elapsed 101%CPU (0avgtext+0avgdata 56552maxresident)k
+0inputs+8264outputs (1major+21546minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m9.208s
-user	0m8.860s
-sys	0m0.362s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffea8314081, 0x5, 0x7ffea8314087, 0x3, 0x4, 0x63752468)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffea8314081, 0x5, 0x7ffea8314087, 0x3, 0x4)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.20system 0:00.59elapsed 105%CPU (0avgtext+0avgdata 57048maxresident)k
+0inputs+8264outputs (1major+21188minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m8.415s
-user	0m8.719s
-sys	0m0.363s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fffcecda081, 0x5, 0x7fffcecda087, 0x3, 0x4, 0x63752468)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fffcecda081, 0x5, 0x7fffcecda087, 0x3, 0x4)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.43user 0.19system 0:00.60elapsed 105%CPU (0avgtext+0avgdata 55420maxresident)k
+0inputs+8256outputs (1major+20851minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m8.426s
-user	0m8.734s
-sys	0m0.330s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000da000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffdf1ebb081, 0x5, 0x7ffdf1ebb087, 0x3, 0x4, 0x63752469)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffdf1ebb081, 0x5, 0x7ffdf1ebb087, 0x3, 0x4)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.47user 0.15system 0:00.84elapsed 73%CPU (0avgtext+0avgdata 57224maxresident)k
+0inputs+8256outputs (1major+21542minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m8.767s
-user	0m8.896s
-sys	0m0.336s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffe41156081, 0x5, 0x7ffe41156087, 0x3, 0x4, 0x6375246a)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffe41156081, 0x5, 0x7ffe41156087, 0x3, 0x4)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.45user 0.18system 0:00.61elapsed 103%CPU (0avgtext+0avgdata 56224maxresident)k
+0inputs+8264outputs (1major+21190minor)pagefaults 0swaps
 6
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m8.425s
-user	0m8.648s
-sys	0m0.357s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000dc000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffe0dd72081, 0x5, 0x7ffe0dd72087, 0x3, 0x6, 0x6375246b)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffe0dd72081, 0x5, 0x7ffe0dd72087, 0x3, 0x6)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.44user 0.18system 0:00.62elapsed 102%CPU (0avgtext+0avgdata 56200maxresident)k
+0inputs+8264outputs (1major+21433minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m8.675s
-user	0m8.673s
-sys	0m0.353s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fff71588081, 0x5, 0x7fff71588087, 0x3, 0x6, 0x6375246b)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fff71588081, 0x5, 0x7fff71588087, 0x3, 0x6)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.45user 0.18system 0:00.61elapsed 105%CPU (0avgtext+0avgdata 56804maxresident)k
+0inputs+8256outputs (1major+21416minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m8.984s
-user	0m8.665s
-sys	0m0.346s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffc90603081, 0x5, 0x7ffc90603087, 0x3, 0x6, 0x6375246c)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffc90603081, 0x5, 0x7ffc90603087, 0x3, 0x6)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.43user 0.19system 0:00.59elapsed 104%CPU (0avgtext+0avgdata 55364maxresident)k
+0inputs+8264outputs (1major+21211minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m8.255s
-user	0m8.636s
-sys	0m0.354s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffe031fa081, 0x5, 0x7ffe031fa087, 0x3, 0x6, 0x6375246c)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffe031fa081, 0x5, 0x7ffe031fa087, 0x3, 0x6)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.46user 0.18system 0:00.62elapsed 103%CPU (0avgtext+0avgdata 56340maxresident)k
+0inputs+8256outputs (1major+21380minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m8.165s
-user	0m8.549s
-sys	0m0.326s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffd34688081, 0x5, 0x7ffd34688087, 0x3, 0x6, 0x6375246d)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffd34688081, 0x5, 0x7ffd34688087, 0x3, 0x6)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.39user 0.21system 0:00.58elapsed 103%CPU (0avgtext+0avgdata 56524maxresident)k
+0inputs+8256outputs (1major+20910minor)pagefaults 0swaps
 8
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m7.729s
-user	0m9.052s
-sys	0m0.278s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fffdc8d0081, 0x5, 0x7fffdc8d0087, 0x3, 0x8, 0x6375246e)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fffdc8d0081, 0x5, 0x7fffdc8d0087, 0x3, 0x8)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.20system 0:00.61elapsed 102%CPU (0avgtext+0avgdata 57176maxresident)k
+0inputs+8256outputs (1major+21727minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m7.518s
-user	0m9.035s
-sys	0m0.294s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d6000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fff68f87081, 0x5, 0x7fff68f87087, 0x3, 0x8, 0x6375246e)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fff68f87081, 0x5, 0x7fff68f87087, 0x3, 0x8)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.23system 0:00.61elapsed 108%CPU (0avgtext+0avgdata 55656maxresident)k
+0inputs+8256outputs (1major+21397minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m7.636s
-user	0m9.019s
-sys	0m0.305s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fff20e24081, 0x5, 0x7fff20e24087, 0x3, 0x8, 0x6375246f)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fff20e24081, 0x5, 0x7fff20e24087, 0x3, 0x8)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.43user 0.18system 0:00.69elapsed 89%CPU (0avgtext+0avgdata 54792maxresident)k
+0inputs+8256outputs (1major+21071minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m7.100s
-user	0m8.825s
-sys	0m0.285s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffdd9808081, 0x5, 0x7ffdd9808087, 0x3, 0x8, 0x63752470)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffdd9808081, 0x5, 0x7ffdd9808087, 0x3, 0x8)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.41user 0.20system 0:00.60elapsed 101%CPU (0avgtext+0avgdata 55712maxresident)k
+0inputs+8256outputs (1major+21189minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m7.170s
-user	0m8.971s
-sys	0m0.284s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffe95f9c081, 0x5, 0x7ffe95f9c087, 0x3, 0x8, 0x63752470)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffe95f9c081, 0x5, 0x7ffe95f9c087, 0x3, 0x8)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.44user 0.18system 0:00.62elapsed 100%CPU (0avgtext+0avgdata 55200maxresident)k
+0inputs+8264outputs (1major+21157minor)pagefaults 0swaps
 10
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m7.219s
-user	0m8.983s
-sys	0m0.290s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffc6ac9f080, 0x5, 0x7ffc6ac9f086, 0x3, 0xa, 0x63752471)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffc6ac9f080, 0x5, 0x7ffc6ac9f086, 0x3, 0xa)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.44user 0.17system 0:00.61elapsed 100%CPU (0avgtext+0avgdata 57064maxresident)k
+0inputs+8256outputs (1major+21292minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m7.284s
-user	0m9.119s
-sys	0m0.291s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000dc000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffff3342080, 0x5, 0x7ffff3342086, 0x3, 0xa, 0x63752471)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffff3342080, 0x5, 0x7ffff3342086, 0x3, 0xa)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.45user 0.17system 0:00.61elapsed 102%CPU (0avgtext+0avgdata 55740maxresident)k
+0inputs+8264outputs (1major+21106minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m7.383s
-user	0m9.059s
-sys	0m0.292s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffc1a594080, 0x5, 0x7ffc1a594086, 0x3, 0xa, 0x63752472)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffc1a594080, 0x5, 0x7ffc1a594086, 0x3, 0xa)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.22system 0:00.60elapsed 106%CPU (0avgtext+0avgdata 55260maxresident)k
+0inputs+8264outputs (1major+21347minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m7.794s
-user	0m9.121s
-sys	0m0.299s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffe1d96d080, 0x5, 0x7ffe1d96d086, 0x3, 0xa, 0x63752473)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffe1d96d080, 0x5, 0x7ffe1d96d086, 0x3, 0xa)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.41user 0.22system 0:00.62elapsed 103%CPU (0avgtext+0avgdata 55784maxresident)k
+0inputs+8256outputs (1major+21145minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m9.986s
-user	0m9.636s
-sys	0m0.385s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffd64029080, 0x5, 0x7ffd64029086, 0x3, 0xa, 0x63752473)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffd64029080, 0x5, 0x7ffd64029086, 0x3, 0xa)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.43user 0.19system 0:00.62elapsed 101%CPU (0avgtext+0avgdata 55608maxresident)k
+0inputs+8256outputs (1major+20286minor)pagefaults 0swaps
 12
-signal: interrupt
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
 
-real	0m7.860s
-user	0m8.110s
-sys	0m0.328s
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fffbe6e3080, 0x5, 0x7fffbe6e3086, 0x3, 0xc, 0x63752474)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fffbe6e3080, 0x5, 0x7fffbe6e3086, 0x3, 0xc)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.45user 0.17system 0:00.61elapsed 101%CPU (0avgtext+0avgdata 57140maxresident)k
+0inputs+8264outputs (1major+21851minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffff759b080, 0x5, 0x7ffff759b086, 0x3, 0xc, 0x63752475)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffff759b080, 0x5, 0x7ffff759b086, 0x3, 0xc)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.20system 0:00.59elapsed 105%CPU (0avgtext+0avgdata 55560maxresident)k
+0inputs+8264outputs (1major+21323minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d6000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffd77d15080, 0x5, 0x7ffd77d15086, 0x3, 0xc, 0x63752475)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffd77d15080, 0x5, 0x7ffd77d15086, 0x3, 0xc)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.20system 0:00.60elapsed 103%CPU (0avgtext+0avgdata 55472maxresident)k
+0inputs+8256outputs (1major+21113minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffc81a66080, 0x5, 0x7ffc81a66086, 0x3, 0xc, 0x63752476)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffc81a66080, 0x5, 0x7ffc81a66086, 0x3, 0xc)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.19system 0:00.59elapsed 104%CPU (0avgtext+0avgdata 55768maxresident)k
+0inputs+8256outputs (1major+20818minor)pagefaults 0swaps
+panic: open ../data/in/small/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffc0713b080, 0x5, 0x7ffc0713b086, 0x3, 0xc, 0x63752476)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffc0713b080, 0x5, 0x7ffc0713b086, 0x3, 0xc)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.41user 0.20system 0:00.60elapsed 101%CPU (0avgtext+0avgdata 56832maxresident)k
+0inputs+8256outputs (1major+21667minor)pagefaults 0swaps
+mixture
+================
+1
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.process(0xc0000be000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
+proj2/scheduler.RunSequential(0x7ffc2a870085, 0x7, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
+proj2/scheduler.Schedule(0x7ffc2a870085, 0x7, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.38user 0.25system 0:00.58elapsed 107%CPU (0avgtext+0avgdata 55660maxresident)k
+0inputs+8256outputs (1major+20956minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.process(0xc0000be000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
+proj2/scheduler.RunSequential(0x7ffc1da29085, 0x7, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
+proj2/scheduler.Schedule(0x7ffc1da29085, 0x7, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.39user 0.23system 0:00.63elapsed 98%CPU (0avgtext+0avgdata 55524maxresident)k
+0inputs+8264outputs (1major+21430minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.process(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
+proj2/scheduler.RunSequential(0x7fffd5a3d085, 0x7, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
+proj2/scheduler.Schedule(0x7fffd5a3d085, 0x7, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.41user 0.19system 0:00.60elapsed 100%CPU (0avgtext+0avgdata 56888maxresident)k
+0inputs+8264outputs (1major+21452minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.process(0xc0000be000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
+proj2/scheduler.RunSequential(0x7ffc4db81085, 0x7, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
+proj2/scheduler.Schedule(0x7ffc4db81085, 0x7, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.36user 0.26system 0:00.63elapsed 100%CPU (0avgtext+0avgdata 55668maxresident)k
+0inputs+8256outputs (1major+21110minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.process(0xc0000d4000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
+proj2/scheduler.RunSequential(0x7ffd9e124085, 0x7, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
+proj2/scheduler.Schedule(0x7ffd9e124085, 0x7, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.40user 0.21system 0:00.58elapsed 104%CPU (0avgtext+0avgdata 55824maxresident)k
+0inputs+8256outputs (1major+21105minor)pagefaults 0swaps
+2
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffd8d02d07f, 0x7, 0x7ffd8d02d087, 0x3, 0x2, 0x6375247a)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffd8d02d07f, 0x7, 0x7ffd8d02d087, 0x3, 0x2)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.50user 0.13system 0:00.58elapsed 108%CPU (0avgtext+0avgdata 55860maxresident)k
+0inputs+8264outputs (1major+21664minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d6000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fff45fcb07f, 0x7, 0x7fff45fcb087, 0x3, 0x2, 0x6375247b)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fff45fcb07f, 0x7, 0x7fff45fcb087, 0x3, 0x2)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.44user 0.15system 0:00.61elapsed 98%CPU (0avgtext+0avgdata 56768maxresident)k
+0inputs+8256outputs (1major+21122minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffc52af807f, 0x7, 0x7ffc52af8087, 0x3, 0x2, 0x6375247b)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffc52af807f, 0x7, 0x7ffc52af8087, 0x3, 0x2)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.47user 0.16system 0:00.63elapsed 100%CPU (0avgtext+0avgdata 56096maxresident)k
+0inputs+8256outputs (1major+21494minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffcc0c6207f, 0x7, 0x7ffcc0c62087, 0x3, 0x2, 0x6375247c)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffcc0c6207f, 0x7, 0x7ffcc0c62087, 0x3, 0x2)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.41user 0.20system 0:00.59elapsed 103%CPU (0avgtext+0avgdata 56636maxresident)k
+0inputs+8264outputs (1major+21486minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fffeea0807f, 0x7, 0x7fffeea08087, 0x3, 0x2, 0x6375247c)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fffeea0807f, 0x7, 0x7fffeea08087, 0x3, 0x2)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.40user 0.21system 0:00.61elapsed 99%CPU (0avgtext+0avgdata 56572maxresident)k
+0inputs+8256outputs (1major+21573minor)pagefaults 0swaps
+4
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffc7d02807f, 0x7, 0x7ffc7d028087, 0x3, 0x4, 0x6375247d)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffc7d02807f, 0x7, 0x7ffc7d028087, 0x3, 0x4)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.44user 0.16system 0:00.61elapsed 99%CPU (0avgtext+0avgdata 57104maxresident)k
+0inputs+8256outputs (1major+21306minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffee500307f, 0x7, 0x7ffee5003087, 0x3, 0x4, 0x6375247e)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffee500307f, 0x7, 0x7ffee5003087, 0x3, 0x4)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.41user 0.21system 0:00.57elapsed 109%CPU (0avgtext+0avgdata 56524maxresident)k
+0inputs+8264outputs (1major+20846minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffe6d95c07f, 0x7, 0x7ffe6d95c087, 0x3, 0x4, 0x6375247e)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffe6d95c07f, 0x7, 0x7ffe6d95c087, 0x3, 0x4)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.40user 0.22system 0:00.62elapsed 100%CPU (0avgtext+0avgdata 55632maxresident)k
+0inputs+8264outputs (1major+21109minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffff981507f, 0x7, 0x7ffff9815087, 0x3, 0x4, 0x6375247f)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffff981507f, 0x7, 0x7ffff9815087, 0x3, 0x4)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.37user 0.23system 0:00.60elapsed 100%CPU (0avgtext+0avgdata 56896maxresident)k
+0inputs+8256outputs (1major+21661minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fffe2ed807f, 0x7, 0x7fffe2ed8087, 0x3, 0x4, 0x63752480)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fffe2ed807f, 0x7, 0x7fffe2ed8087, 0x3, 0x4)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.19system 0:00.60elapsed 101%CPU (0avgtext+0avgdata 57056maxresident)k
+0inputs+8256outputs (1major+21527minor)pagefaults 0swaps
+6
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffe26ed207f, 0x7, 0x7ffe26ed2087, 0x3, 0x6, 0x63752480)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffe26ed207f, 0x7, 0x7ffe26ed2087, 0x3, 0x6)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.33user 0.28system 0:00.60elapsed 102%CPU (0avgtext+0avgdata 56988maxresident)k
+0inputs+8256outputs (1major+21254minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffca163b07f, 0x7, 0x7ffca163b087, 0x3, 0x6, 0x63752481)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffca163b07f, 0x7, 0x7ffca163b087, 0x3, 0x6)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.20system 0:00.61elapsed 101%CPU (0avgtext+0avgdata 56588maxresident)k
+0inputs+8256outputs (1major+21351minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffcf9da007f, 0x7, 0x7ffcf9da0087, 0x3, 0x6, 0x63752481)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffcf9da007f, 0x7, 0x7ffcf9da0087, 0x3, 0x6)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.20system 0:00.59elapsed 104%CPU (0avgtext+0avgdata 56416maxresident)k
+0inputs+8264outputs (1major+21545minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffec4fdb07f, 0x7, 0x7ffec4fdb087, 0x3, 0x6, 0x63752482)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffec4fdb07f, 0x7, 0x7ffec4fdb087, 0x3, 0x6)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.44user 0.17system 0:00.61elapsed 100%CPU (0avgtext+0avgdata 56436maxresident)k
+0inputs+8256outputs (1major+21410minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fff8b20907f, 0x7, 0x7fff8b209087, 0x3, 0x6, 0x63752483)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fff8b20907f, 0x7, 0x7fff8b209087, 0x3, 0x6)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.19system 0:00.55elapsed 111%CPU (0avgtext+0avgdata 56292maxresident)k
+0inputs+8264outputs (1major+21551minor)pagefaults 0swaps
+8
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d6000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffec0ada07f, 0x7, 0x7ffec0ada087, 0x3, 0x8, 0x63752483)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffec0ada07f, 0x7, 0x7ffec0ada087, 0x3, 0x8)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.44user 0.16system 0:00.56elapsed 107%CPU (0avgtext+0avgdata 56716maxresident)k
+0inputs+8256outputs (1major+21234minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffdf3b6807f, 0x7, 0x7ffdf3b68087, 0x3, 0x8, 0x63752484)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffdf3b6807f, 0x7, 0x7ffdf3b68087, 0x3, 0x8)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.41user 0.22system 0:00.59elapsed 107%CPU (0avgtext+0avgdata 55200maxresident)k
+0inputs+8264outputs (1major+21129minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fff6453c07f, 0x7, 0x7fff6453c087, 0x3, 0x8, 0x63752484)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fff6453c07f, 0x7, 0x7fff6453c087, 0x3, 0x8)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.45user 0.16system 0:00.60elapsed 101%CPU (0avgtext+0avgdata 56972maxresident)k
+0inputs+8264outputs (1major+21523minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffddc1bb07f, 0x7, 0x7ffddc1bb087, 0x3, 0x8, 0x63752485)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffddc1bb07f, 0x7, 0x7ffddc1bb087, 0x3, 0x8)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.20system 0:00.60elapsed 104%CPU (0avgtext+0avgdata 56708maxresident)k
+0inputs+8256outputs (1major+21504minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffc781e607f, 0x7, 0x7ffc781e6087, 0x3, 0x8, 0x63752486)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffc781e607f, 0x7, 0x7ffc781e6087, 0x3, 0x8)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.46user 0.17system 0:00.65elapsed 97%CPU (0avgtext+0avgdata 56100maxresident)k
+0inputs+8264outputs (1major+21117minor)pagefaults 0swaps
+10
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fff809ba07e, 0x7, 0x7fff809ba086, 0x3, 0xa, 0x63752486)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fff809ba07e, 0x7, 0x7fff809ba086, 0x3, 0xa)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.46user 0.15system 0:00.58elapsed 105%CPU (0avgtext+0avgdata 57024maxresident)k
+0inputs+8256outputs (1major+21432minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffe401ef07e, 0x7, 0x7ffe401ef086, 0x3, 0xa, 0x63752487)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffe401ef07e, 0x7, 0x7ffe401ef086, 0x3, 0xa)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.45user 0.17system 0:00.63elapsed 100%CPU (0avgtext+0avgdata 55856maxresident)k
+0inputs+8264outputs (1major+21323minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fffa0fca07e, 0x7, 0x7fffa0fca086, 0x3, 0xa, 0x63752487)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fffa0fca07e, 0x7, 0x7fffa0fca086, 0x3, 0xa)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.45user 0.18system 0:00.59elapsed 108%CPU (0avgtext+0avgdata 55912maxresident)k
+0inputs+8264outputs (1major+21202minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffd8703307e, 0x7, 0x7ffd87033086, 0x3, 0xa, 0x63752488)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffd8703307e, 0x7, 0x7ffd87033086, 0x3, 0xa)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.43user 0.21system 0:00.79elapsed 81%CPU (0avgtext+0avgdata 55908maxresident)k
+0inputs+8256outputs (1major+21014minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffcf9f1807e, 0x7, 0x7ffcf9f18086, 0x3, 0xa, 0x63752489)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffcf9f1807e, 0x7, 0x7ffcf9f18086, 0x3, 0xa)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.19system 0:00.57elapsed 108%CPU (0avgtext+0avgdata 55896maxresident)k
+0inputs+8264outputs (1major+21032minor)pagefaults 0swaps
+12
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffc3d10a07e, 0x7, 0x7ffc3d10a086, 0x3, 0xc, 0x63752489)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffc3d10a07e, 0x7, 0x7ffc3d10a086, 0x3, 0xc)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.43user 0.19system 0:00.59elapsed 105%CPU (0avgtext+0avgdata 56844maxresident)k
+0inputs+8256outputs (1major+21369minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffce55e107e, 0x7, 0x7ffce55e1086, 0x3, 0xc, 0x6375248a)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffce55e107e, 0x7, 0x7ffce55e1086, 0x3, 0xc)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.39user 0.22system 0:00.58elapsed 105%CPU (0avgtext+0avgdata 57004maxresident)k
+0inputs+8256outputs (1major+21451minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fffb925207e, 0x7, 0x7fffb9252086, 0x3, 0xc, 0x6375248b)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fffb925207e, 0x7, 0x7fffb9252086, 0x3, 0xc)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.40user 0.21system 0:00.62elapsed 100%CPU (0avgtext+0avgdata 56768maxresident)k
+0inputs+8256outputs (1major+21695minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d6000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffd80bf207e, 0x7, 0x7ffd80bf2086, 0x3, 0xc, 0x6375248b)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffd80bf207e, 0x7, 0x7ffd80bf2086, 0x3, 0xc)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.47user 0.18system 0:00.60elapsed 108%CPU (0avgtext+0avgdata 55956maxresident)k
+0inputs+8256outputs (1major+21499minor)pagefaults 0swaps
+panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffdfea7207e, 0x7, 0x7ffdfea72086, 0x3, 0xc, 0x6375248c)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffdfea7207e, 0x7, 0x7ffdfea72086, 0x3, 0xc)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.41user 0.22system 0:00.63elapsed 100%CPU (0avgtext+0avgdata 56616maxresident)k
+0inputs+8256outputs (1major+21581minor)pagefaults 0swaps
+big
+================
+1
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.process(0xc0000be000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
+proj2/scheduler.RunSequential(0x7fff000fe089, 0x3, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
+proj2/scheduler.Schedule(0x7fff000fe089, 0x3, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.44user 0.19system 0:00.59elapsed 107%CPU (0avgtext+0avgdata 55196maxresident)k
+0inputs+8256outputs (1major+21107minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.process(0xc0000be000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
+proj2/scheduler.RunSequential(0x7ffcc26b5089, 0x3, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
+proj2/scheduler.Schedule(0x7ffcc26b5089, 0x3, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.44user 0.19system 0:00.61elapsed 105%CPU (0avgtext+0avgdata 57004maxresident)k
+0inputs+8264outputs (1major+21166minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.process(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
+proj2/scheduler.RunSequential(0x7fff80301089, 0x3, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
+proj2/scheduler.Schedule(0x7fff80301089, 0x3, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.41user 0.21system 0:00.60elapsed 103%CPU (0avgtext+0avgdata 57268maxresident)k
+0inputs+8256outputs (1major+21603minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.process(0xc0000be000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
+proj2/scheduler.RunSequential(0x7ffe13a05089, 0x3, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
+proj2/scheduler.Schedule(0x7ffe13a05089, 0x3, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.41user 0.21system 0:00.60elapsed 104%CPU (0avgtext+0avgdata 56940maxresident)k
+0inputs+8264outputs (1major+21564minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.process(0xc0000be000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
+proj2/scheduler.RunSequential(0x7ffdf0953089, 0x3, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
+proj2/scheduler.Schedule(0x7ffdf0953089, 0x3, 0x5336e1, 0x1, 0x0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.45user 0.18system 0:00.60elapsed 106%CPU (0avgtext+0avgdata 56616maxresident)k
+0inputs+8264outputs (1major+21491minor)pagefaults 0swaps
+2
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fffc334c083, 0x3, 0x7fffc334c087, 0x3, 0x2, 0x6375248f)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fffc334c083, 0x3, 0x7fffc334c087, 0x3, 0x2)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.48user 0.15system 0:00.59elapsed 106%CPU (0avgtext+0avgdata 56868maxresident)k
+0inputs+8256outputs (1major+21617minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffe7b70d083, 0x3, 0x7ffe7b70d087, 0x3, 0x2, 0x63752490)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffe7b70d083, 0x3, 0x7ffe7b70d087, 0x3, 0x2)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.43user 0.19system 0:00.57elapsed 108%CPU (0avgtext+0avgdata 55348maxresident)k
+0inputs+8256outputs (1major+20890minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffde30fa083, 0x3, 0x7ffde30fa087, 0x3, 0x2, 0x63752491)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffde30fa083, 0x3, 0x7ffde30fa087, 0x3, 0x2)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.46user 0.17system 0:00.61elapsed 103%CPU (0avgtext+0avgdata 55848maxresident)k
+0inputs+8264outputs (1major+21345minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fff5f774083, 0x3, 0x7fff5f774087, 0x3, 0x2, 0x63752491)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fff5f774083, 0x3, 0x7fff5f774087, 0x3, 0x2)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.39user 0.22system 0:00.59elapsed 103%CPU (0avgtext+0avgdata 56912maxresident)k
+0inputs+8264outputs (1major+21409minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000dc000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffc54930083, 0x3, 0x7ffc54930087, 0x3, 0x2, 0x63752492)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffc54930083, 0x3, 0x7ffc54930087, 0x3, 0x2)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.45user 0.15system 0:00.62elapsed 96%CPU (0avgtext+0avgdata 56616maxresident)k
+0inputs+8256outputs (1major+21668minor)pagefaults 0swaps
+4
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffd82830083, 0x3, 0x7ffd82830087, 0x3, 0x4, 0x63752492)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffd82830083, 0x3, 0x7ffd82830087, 0x3, 0x4)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.45user 0.17system 0:00.60elapsed 104%CPU (0avgtext+0avgdata 55540maxresident)k
+0inputs+8264outputs (1major+21471minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffc46494083, 0x3, 0x7ffc46494087, 0x3, 0x4, 0x63752493)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffc46494083, 0x3, 0x7ffc46494087, 0x3, 0x4)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.44user 0.19system 0:00.58elapsed 107%CPU (0avgtext+0avgdata 54932maxresident)k
+0inputs+8256outputs (1major+21278minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fff1c8f3083, 0x3, 0x7fff1c8f3087, 0x3, 0x4, 0x63752494)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fff1c8f3083, 0x3, 0x7fff1c8f3087, 0x3, 0x4)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.39user 0.22system 0:00.61elapsed 101%CPU (0avgtext+0avgdata 56844maxresident)k
+0inputs+8256outputs (1major+21376minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffefea00083, 0x3, 0x7ffefea00087, 0x3, 0x4, 0x63752494)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffefea00083, 0x3, 0x7ffefea00087, 0x3, 0x4)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.39user 0.22system 0:00.60elapsed 102%CPU (0avgtext+0avgdata 56624maxresident)k
+0inputs+8272outputs (1major+21731minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffcae10c083, 0x3, 0x7ffcae10c087, 0x3, 0x4, 0x63752495)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffcae10c083, 0x3, 0x7ffcae10c087, 0x3, 0x4)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.46user 0.16system 0:00.60elapsed 103%CPU (0avgtext+0avgdata 56664maxresident)k
+0inputs+8256outputs (1major+21643minor)pagefaults 0swaps
+6
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000e0000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fffaa3cb083, 0x3, 0x7fffaa3cb087, 0x3, 0x6, 0x63752496)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fffaa3cb083, 0x3, 0x7fffaa3cb087, 0x3, 0x6)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.43user 0.19system 0:00.79elapsed 78%CPU (0avgtext+0avgdata 56836maxresident)k
+0inputs+8256outputs (1major+21269minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffe72cc6083, 0x3, 0x7ffe72cc6087, 0x3, 0x6, 0x63752496)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffe72cc6083, 0x3, 0x7ffe72cc6087, 0x3, 0x6)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.20system 0:00.59elapsed 106%CPU (0avgtext+0avgdata 56852maxresident)k
+0inputs+8256outputs (1major+21467minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffd65e6c083, 0x3, 0x7ffd65e6c087, 0x3, 0x6, 0x63752497)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffd65e6c083, 0x3, 0x7ffd65e6c087, 0x3, 0x6)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.45user 0.18system 0:00.60elapsed 104%CPU (0avgtext+0avgdata 55464maxresident)k
+0inputs+8256outputs (1major+21243minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffc27bc5083, 0x3, 0x7ffc27bc5087, 0x3, 0x6, 0x63752498)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffc27bc5083, 0x3, 0x7ffc27bc5087, 0x3, 0x6)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.41user 0.21system 0:00.60elapsed 103%CPU (0avgtext+0avgdata 56292maxresident)k
+0inputs+8256outputs (1major+21524minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffc5a726083, 0x3, 0x7ffc5a726087, 0x3, 0x6, 0x63752498)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffc5a726083, 0x3, 0x7ffc5a726087, 0x3, 0x6)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.43user 0.19system 0:00.60elapsed 104%CPU (0avgtext+0avgdata 55436maxresident)k
+0inputs+8256outputs (1major+20963minor)pagefaults 0swaps
+8
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffeee501083, 0x3, 0x7ffeee501087, 0x3, 0x8, 0x63752499)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffeee501083, 0x3, 0x7ffeee501087, 0x3, 0x8)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.45user 0.17system 0:00.55elapsed 113%CPU (0avgtext+0avgdata 57148maxresident)k
+0inputs+8264outputs (1major+21903minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffdeadef083, 0x3, 0x7ffdeadef087, 0x3, 0x8, 0x63752499)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffdeadef083, 0x3, 0x7ffdeadef087, 0x3, 0x8)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.41user 0.20system 0:00.59elapsed 106%CPU (0avgtext+0avgdata 56596maxresident)k
+0inputs+8256outputs (1major+21591minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fffb760e083, 0x3, 0x7fffb760e087, 0x3, 0x8, 0x6375249a)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fffb760e083, 0x3, 0x7fffb760e087, 0x3, 0x8)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.43user 0.19system 0:00.58elapsed 106%CPU (0avgtext+0avgdata 56932maxresident)k
+0inputs+8256outputs (1major+21561minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fffb1177083, 0x3, 0x7fffb1177087, 0x3, 0x8, 0x6375249a)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fffb1177083, 0x3, 0x7fffb1177087, 0x3, 0x8)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.19system 0:00.58elapsed 107%CPU (0avgtext+0avgdata 55836maxresident)k
+0inputs+8264outputs (1major+21209minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffd69a5c083, 0x3, 0x7ffd69a5c087, 0x3, 0x8, 0x6375249b)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffd69a5c083, 0x3, 0x7ffd69a5c087, 0x3, 0x8)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.43user 0.18system 0:00.57elapsed 107%CPU (0avgtext+0avgdata 55660maxresident)k
+0inputs+8264outputs (1major+21137minor)pagefaults 0swaps
+10
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffe96e11082, 0x3, 0x7ffe96e11086, 0x3, 0xa, 0x6375249c)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffe96e11082, 0x3, 0x7ffe96e11086, 0x3, 0xa)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.38user 0.25system 0:00.60elapsed 104%CPU (0avgtext+0avgdata 55588maxresident)k
+0inputs+8256outputs (1major+21431minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fffc290f082, 0x3, 0x7fffc290f086, 0x3, 0xa, 0x6375249c)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fffc290f082, 0x3, 0x7fffc290f086, 0x3, 0xa)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.40user 0.20system 0:00.73elapsed 82%CPU (0avgtext+0avgdata 56648maxresident)k
+0inputs+8264outputs (1major+21176minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffe2ec39082, 0x3, 0x7ffe2ec39086, 0x3, 0xa, 0x6375249d)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffe2ec39082, 0x3, 0x7ffe2ec39086, 0x3, 0xa)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.43user 0.20system 0:00.59elapsed 107%CPU (0avgtext+0avgdata 55996maxresident)k
+0inputs+8256outputs (1major+21292minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fffdce4e082, 0x3, 0x7fffdce4e086, 0x3, 0xa, 0x6375249e)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fffdce4e082, 0x3, 0x7fffdce4e086, 0x3, 0xa)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.43user 0.18system 0:00.59elapsed 103%CPU (0avgtext+0avgdata 57232maxresident)k
+0inputs+8256outputs (1major+21797minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fff2e9fa082, 0x3, 0x7fff2e9fa086, 0x3, 0xa, 0x6375249e)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fff2e9fa082, 0x3, 0x7fff2e9fa086, 0x3, 0xa)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.45user 0.16system 0:00.58elapsed 106%CPU (0avgtext+0avgdata 56088maxresident)k
+0inputs+8272outputs (1major+21467minor)pagefaults 0swaps
+12
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffd3fe5e082, 0x3, 0x7ffd3fe5e086, 0x3, 0xc, 0x6375249f)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffd3fe5e082, 0x3, 0x7ffd3fe5e086, 0x3, 0xc)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.42user 0.20system 0:00.59elapsed 106%CPU (0avgtext+0avgdata 56680maxresident)k
+0inputs+8256outputs (1major+21812minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffe9f373082, 0x3, 0x7ffe9f373086, 0x3, 0xc, 0x6375249f)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffe9f373082, 0x3, 0x7ffe9f373086, 0x3, 0xc)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.41user 0.21system 0:00.58elapsed 108%CPU (0avgtext+0avgdata 56188maxresident)k
+0inputs+8256outputs (1major+21546minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc0000d2000)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffcb2976082, 0x3, 0x7ffcb2976086, 0x3, 0xc, 0x637524a0)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffcb2976082, 0x3, 0x7ffcb2976086, 0x3, 0xc)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.44user 0.17system 0:00.58elapsed 106%CPU (0avgtext+0avgdata 56880maxresident)k
+0inputs+8264outputs (1major+21600minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7fff2595b082, 0x3, 0x7fff2595b086, 0x3, 0xc, 0x637524a1)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7fff2595b082, 0x3, 0x7fff2595b086, 0x3, 0xc)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.44user 0.19system 0:00.63elapsed 101%CPU (0avgtext+0avgdata 55844maxresident)k
+0inputs+8256outputs (1major+21237minor)pagefaults 0swaps
+panic: open ../data/in/big/IMG_2029.png: no such file or directory
+
+goroutine 1 [running]:
+proj2/scheduler.getWork(0xc000024080)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:130 +0x2e7
+proj2/scheduler.NewBSPContext(0x7ffc9f337082, 0x3, 0x7ffc9f337086, 0x3, 0xc, 0x637524a1)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/bsp.go:43 +0x1d9
+proj2/scheduler.Schedule(0x7ffc9f337082, 0x3, 0x7ffc9f337086, 0x3, 0xc)
+	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:21 +0x94
+main.main()
+	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
+exit status 2
+Command exited with non-zero status 1
+0.40user 0.20system 0:00.58elapsed 104%CPU (0avgtext+0avgdata 56660maxresident)k
+0inputs+8272outputs (1major+21678minor)pagefaults 0swaps
