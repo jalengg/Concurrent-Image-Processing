@@ -23,8 +23,6 @@ type bspWorkerContext struct {
 	effectIndex	int
 	effectLen	int
 	threadCounter int
-	//?? cond 		*sync.Cond
-	// Define the necessary fields for your implementation
 }
 
 func NewBSPContext(config Config) *bspWorkerContext {
@@ -47,15 +45,11 @@ func NewBSPContext(config Config) *bspWorkerContext {
 
 func RunBSPWorker(id int, ctx *bspWorkerContext) {
 	for {
-		// Implement the BSP model here.
-		// No additional loops can be used in this implementation. T
-		// This goes to calling other functions. No other called
-		// function you define or are using can have looping being done for you.
-
+		// check done
 		if ctx.done {
 			return 
 		}
-		//
+		
 
 		//superstep
 		effect := ctx.currTask.Request.Effects[ctx.effectIndex]
@@ -66,7 +60,7 @@ func RunBSPWorker(id int, ctx *bspWorkerContext) {
 	
 		ctx.currTask.BspMiniWorker(id*yIncrement, (id+1)*yIncrement, effect)
 
-		///// barrier 
+		///// global synchronization aka barrier 
 		barrier(ctx)
 	}
 }

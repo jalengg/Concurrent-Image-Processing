@@ -101,7 +101,7 @@ func workerListener(c <-chan *png.ImageTask, done chan<- bool, aggregated chan<-
 
 
 func aggregator(channels []<-chan *png.ImageTask, numThreads int) {
-	//fan in 
+	//aka fan in 
 
 	aggregated := make(chan *png.ImageTask)
 	done := make(chan bool, numThreads)
