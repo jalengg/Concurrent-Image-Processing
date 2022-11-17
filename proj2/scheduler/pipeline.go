@@ -8,11 +8,10 @@ import (
 	"strings"
 )
 
-func getTask(dec *json.Decoder, done chan<- bool, size string) *png.ImageTask{
+func getTask(dec *json.Decoder, size string) *png.ImageTask{
 	var request png.Request
 	err := dec.Decode(&request)
 	if err == io.EOF {
-		done <- true
 		return nil
 	}
 	request.Size = size
@@ -29,15 +28,14 @@ func getTask(dec *json.Decoder, done chan<- bool, size string) *png.ImageTask{
 
 
 func getTaskStream(taskStream chan *png.ImageTask, size string) {
-	done := make(chan bool, 1)
 
 	dec := read()
-	
-	for {
-		select {
-		case <-done:
+	for { 
+		filter := getTask(dec, size)
+		if filter == nil {
 			return
-		case taskStream <- getTask(dec, done, size):
+		} else {
+			taskStream <- filter
 		}
 	}
 }
