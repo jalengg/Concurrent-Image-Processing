@@ -71,7 +71,7 @@ plt.plot(xval, mixture, label = "mixture")
 plt.plot(xval, big, label = "big")
 plt.xlabel('Number of Threads')
 plt.ylabel('Speedup')
-plt.title('Speedup running various tests')
+plt.title('Speedup of BSP processing various picture sizes')
 plt.xticks(xval, ["1","2", "4", "6", "8", "10", "12"])
 
 plt.legend(loc='upper left') 
@@ -79,6 +79,7 @@ plt.legend(loc='upper left')
 
 plt.savefig('BSP_speedup.png')
 
+plt.clf()
 
 #Pipeline 
 f = open("output_pipeline", "r")
@@ -115,7 +116,6 @@ for line in f:
         else:
             suba[index] = [total]
 
-print(bigdata)
 
 means = {}
 # find means for the time measurements
@@ -145,7 +145,7 @@ plt.plot(xval, mixture, label = "mixture")
 plt.plot(xval, big, label = "big")
 plt.xlabel('Number of Threads')
 plt.ylabel('Speedup')
-plt.title('Speedup running various tests')
+plt.title('Speedup of Pipeline processing various picture sizes')
 plt.xticks(xval, ["1","2", "4", "6", "8", "10", "12"])
 
 plt.legend(loc='upper left') 

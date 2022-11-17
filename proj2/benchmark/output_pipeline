@@ -1,1602 +1,237 @@
 small
 ================
 1
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 1 [running]:
-proj2/scheduler.process(0xc0000be000)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
-proj2/scheduler.RunSequential(0x7fffc1223087, 0x5, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
-proj2/scheduler.Schedule(0x7fffc1223087, 0x5, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
-main.main()
-	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.18system 0:00.58elapsed 105%CPU (0avgtext+0avgdata 57008maxresident)k
-0inputs+8256outputs (1major+21753minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 1 [running]:
-proj2/scheduler.process(0xc0000be000)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
-proj2/scheduler.RunSequential(0x7ffcdbccd087, 0x5, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
-proj2/scheduler.Schedule(0x7ffcdbccd087, 0x5, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
-main.main()
-	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
-exit status 2
-Command exited with non-zero status 1
-0.46user 0.16system 0:00.60elapsed 103%CPU (0avgtext+0avgdata 57144maxresident)k
-0inputs+8256outputs (1major+21123minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 1 [running]:
-proj2/scheduler.process(0xc0000be000)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
-proj2/scheduler.RunSequential(0x7ffc8b979087, 0x5, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
-proj2/scheduler.Schedule(0x7ffc8b979087, 0x5, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
-main.main()
-	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.19system 0:00.59elapsed 105%CPU (0avgtext+0avgdata 55720maxresident)k
-0inputs+8256outputs (1major+21499minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 1 [running]:
-proj2/scheduler.process(0xc0000be000)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
-proj2/scheduler.RunSequential(0x7ffdb00ed087, 0x5, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
-proj2/scheduler.Schedule(0x7ffdb00ed087, 0x5, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
-main.main()
-	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
-exit status 2
-Command exited with non-zero status 1
-0.40user 0.21system 0:00.58elapsed 105%CPU (0avgtext+0avgdata 56400maxresident)k
-0inputs+8256outputs (1major+21302minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 1 [running]:
-proj2/scheduler.process(0xc0000d2000)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
-proj2/scheduler.RunSequential(0x7fff0ffdf087, 0x5, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
-proj2/scheduler.Schedule(0x7fff0ffdf087, 0x5, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
-main.main()
-	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.18system 0:00.61elapsed 100%CPU (0avgtext+0avgdata 56384maxresident)k
-0inputs+8264outputs (1major+21466minor)pagefaults 0swaps
+6.32user 0.13system 0:06.77elapsed 95%CPU (0avgtext+0avgdata 56524maxresident)k
+0inputs+40976outputs (1021major+29245minor)pagefaults 0swaps
+6.23user 0.10system 0:18.37elapsed 34%CPU (0avgtext+0avgdata 56776maxresident)k
+0inputs+40984outputs (1021major+27946minor)pagefaults 0swaps
+6.13user 0.22system 0:06.59elapsed 96%CPU (0avgtext+0avgdata 55212maxresident)k
+0inputs+40976outputs (1021major+27980minor)pagefaults 0swaps
+6.26user 0.09system 0:06.44elapsed 98%CPU (0avgtext+0avgdata 56372maxresident)k
+0inputs+40984outputs (1021major+29318minor)pagefaults 0swaps
+6.24user 0.11system 0:06.40elapsed 99%CPU (0avgtext+0avgdata 56468maxresident)k
+0inputs+40976outputs (1021major+28513minor)pagefaults 0swaps
 2
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000c8000, 0xc0000ba000, 0x7ffd1f55d07c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffd1f55d07c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.38user 0.24system 0:00.60elapsed 103%CPU (0avgtext+0avgdata 56632maxresident)k
-0inputs+8264outputs (1major+21695minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 33 [running]:
-proj2/scheduler.getTask(0xc0000e4000, 0xc000074070, 0x7fffa5f8907c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc0000d4000, 0x7fffa5f8907c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc0000d4000, 0xc0000bc190, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.46user 0.16system 0:00.60elapsed 104%CPU (0avgtext+0avgdata 55880maxresident)k
-0inputs+8256outputs (1major+21339minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000cc000, 0xc0000740e0, 0x7fff0741a07c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7fff0741a07c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.20system 0:00.67elapsed 95%CPU (0avgtext+0avgdata 55552maxresident)k
-0inputs+8256outputs (1major+21313minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000c8000, 0xc0000ba000, 0x7ffdb5c7607c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffdb5c7607c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.19system 0:00.57elapsed 108%CPU (0avgtext+0avgdata 57220maxresident)k
-0inputs+8256outputs (1major+21697minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc000074070, 0x7ffc3cf7807c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffc3cf7807c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.21system 0:00.64elapsed 100%CPU (0avgtext+0avgdata 56512maxresident)k
-0inputs+8264outputs (1major+21585minor)pagefaults 0swaps
+6.81user 0.11system 0:02.67elapsed 258%CPU (0avgtext+0avgdata 163260maxresident)k
+0inputs+40976outputs (1021major+47312minor)pagefaults 0swaps
+6.81user 0.12system 0:02.71elapsed 256%CPU (0avgtext+0avgdata 162188maxresident)k
+0inputs+40984outputs (1021major+46274minor)pagefaults 0swaps
+7.06user 0.12system 0:02.75elapsed 261%CPU (0avgtext+0avgdata 180656maxresident)k
+0inputs+40976outputs (1021major+47256minor)pagefaults 0swaps
+7.15user 0.11system 0:02.80elapsed 258%CPU (0avgtext+0avgdata 156740maxresident)k
+0inputs+40976outputs (1021major+45310minor)pagefaults 0swaps
+7.00user 0.10system 0:02.78elapsed 255%CPU (0avgtext+0avgdata 152332maxresident)k
+0inputs+40992outputs (1021major+43782minor)pagefaults 0swaps
 4
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc0000f8000, 0xc000074070, 0x7fff2431307c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7fff2431307c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.40user 0.22system 0:00.60elapsed 103%CPU (0avgtext+0avgdata 55528maxresident)k
-0inputs+8264outputs (1major+21024minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc0000f4000, 0xc000074070, 0x7ffe57f0507c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffe57f0507c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.20system 0:00.62elapsed 103%CPU (0avgtext+0avgdata 55384maxresident)k
-0inputs+8256outputs (1major+20841minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ce000, 0xc0000be000, 0x7ffca7b2707c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffca7b2707c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.44user 0.18system 0:00.61elapsed 103%CPU (0avgtext+0avgdata 55508maxresident)k
-0inputs+8264outputs (1major+20965minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000d4000, 0xc0000bc000, 0x7ffe2d9c107c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffe2d9c107c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.20system 0:00.63elapsed 100%CPU (0avgtext+0avgdata 57048maxresident)k
-0inputs+8256outputs (1major+21712minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc0000fa000, 0xc000074070, 0x7ffe032a507c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffe032a507c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.48user 0.13system 0:00.59elapsed 104%CPU (0avgtext+0avgdata 56996maxresident)k
-0inputs+8256outputs (1major+21729minor)pagefaults 0swaps
+8.15user 0.11system 0:02.83elapsed 292%CPU (0avgtext+0avgdata 201100maxresident)k
+0inputs+40976outputs (1021major+50078minor)pagefaults 0swaps
+8.10user 0.11system 0:02.79elapsed 294%CPU (0avgtext+0avgdata 198724maxresident)k
+0inputs+40976outputs (1021major+49607minor)pagefaults 0swaps
+8.03user 0.10system 0:02.75elapsed 294%CPU (0avgtext+0avgdata 201656maxresident)k
+0inputs+40984outputs (1022major+51649minor)pagefaults 0swaps
+7.91user 0.16system 0:02.78elapsed 289%CPU (0avgtext+0avgdata 198428maxresident)k
+0inputs+40976outputs (1021major+50631minor)pagefaults 0swaps
+8.13user 0.12system 0:03.31elapsed 249%CPU (0avgtext+0avgdata 192696maxresident)k
+0inputs+40976outputs (1021major+52012minor)pagefaults 0swaps
 6
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000be000, 0x7ffd394fb07c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffd394fb07c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.22system 0:00.63elapsed 103%CPU (0avgtext+0avgdata 55160maxresident)k
-0inputs+8272outputs (1major+21137minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000bc000, 0x7ffd3664107c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffd3664107c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.40user 0.22system 0:00.60elapsed 104%CPU (0avgtext+0avgdata 56912maxresident)k
-0inputs+8256outputs (1major+21673minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc00010e000, 0xc0000d4000, 0x7ffc322ce07c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffc322ce07c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.23system 0:00.63elapsed 103%CPU (0avgtext+0avgdata 56456maxresident)k
-0inputs+8256outputs (1major+21569minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc000104000, 0xc0000bc000, 0x7ffcb3c1307c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffcb3c1307c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.22system 0:00.62elapsed 104%CPU (0avgtext+0avgdata 55608maxresident)k
-0inputs+8256outputs (1major+20760minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc000104000, 0xc0000be000, 0x7ffe2cf8107c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffe2cf8107c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.46user 0.18system 0:00.61elapsed 105%CPU (0avgtext+0avgdata 56308maxresident)k
-0inputs+8264outputs (1major+21766minor)pagefaults 0swaps
+8.39user 0.14system 0:02.80elapsed 303%CPU (0avgtext+0avgdata 199088maxresident)k
+0inputs+40984outputs (1021major+49566minor)pagefaults 0swaps
+8.47user 0.14system 0:02.82elapsed 305%CPU (0avgtext+0avgdata 199052maxresident)k
+0inputs+40976outputs (1021major+47347minor)pagefaults 0swaps
+8.56user 0.18system 0:02.85elapsed 306%CPU (0avgtext+0avgdata 198556maxresident)k
+0inputs+40976outputs (1021major+48007minor)pagefaults 0swaps
+8.19user 0.18system 0:02.78elapsed 301%CPU (0avgtext+0avgdata 198444maxresident)k
+0inputs+40984outputs (1021major+47198minor)pagefaults 0swaps
+8.54user 0.10system 0:03.20elapsed 269%CPU (0avgtext+0avgdata 198576maxresident)k
+0inputs+40976outputs (1021major+49640minor)pagefaults 0swaps
 8
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 33 [running]:
-proj2/scheduler.getTask(0xc000118000, 0xc000074070, 0x7fff7a03907c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc0000d4000, 0x7fff7a03907c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc0000d4000, 0xc0000bc190, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.47user 0.16system 0:00.73elapsed 87%CPU (0avgtext+0avgdata 55880maxresident)k
-0inputs+8264outputs (1major+20745minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000bc000, 0x7ffdde65007c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffdde65007c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.48user 0.14system 0:00.60elapsed 104%CPU (0avgtext+0avgdata 55892maxresident)k
-0inputs+8256outputs (1major+20941minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000fe000, 0xc0000c8000, 0x7ffd30fc407c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffd30fc407c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.20system 0:00.59elapsed 107%CPU (0avgtext+0avgdata 56472maxresident)k
-0inputs+8264outputs (1major+21585minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000bc000, 0x7ffdb42b107c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffdb42b107c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.44user 0.19system 0:00.59elapsed 106%CPU (0avgtext+0avgdata 55100maxresident)k
-0inputs+8256outputs (1major+20824minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000bc000, 0x7ffd22f8807c, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffd22f8807c, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.39user 0.21system 0:00.61elapsed 99%CPU (0avgtext+0avgdata 55620maxresident)k
-0inputs+8256outputs (1major+21038minor)pagefaults 0swaps
+9.06user 0.15system 0:03.35elapsed 274%CPU (0avgtext+0avgdata 198624maxresident)k
+0inputs+43256outputs (1021major+51773minor)pagefaults 0swaps
+8.86user 0.13system 0:03.11elapsed 289%CPU (0avgtext+0avgdata 199468maxresident)k
+0inputs+43272outputs (1021major+48906minor)pagefaults 0swaps
+8.92user 0.12system 0:03.83elapsed 236%CPU (0avgtext+0avgdata 198600maxresident)k
+0inputs+43256outputs (1021major+48409minor)pagefaults 0swaps
+8.73user 0.20system 0:04.05elapsed 220%CPU (0avgtext+0avgdata 224836maxresident)k
+0inputs+43256outputs (1021major+52572minor)pagefaults 0swaps
+9.04user 0.11system 0:03.24elapsed 282%CPU (0avgtext+0avgdata 198756maxresident)k
+0inputs+43256outputs (1021major+47649minor)pagefaults 0swaps
 10
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000f8000, 0xc0000740e0, 0x7ffd782d307b, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffd782d307b, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.44user 0.18system 0:00.60elapsed 103%CPU (0avgtext+0avgdata 56628maxresident)k
-0inputs+8264outputs (1major+21707minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc0000e4000, 0xc0000d8070, 0x7fffdb64b07b, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7fffdb64b07b, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.41user 0.21system 0:00.58elapsed 106%CPU (0avgtext+0avgdata 55688maxresident)k
-0inputs+8256outputs (1major+21578minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc00010c000, 0xc0000f4000, 0x7ffe0b34a07b, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffe0b34a07b, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.37user 0.23system 0:00.59elapsed 103%CPU (0avgtext+0avgdata 56916maxresident)k
-0inputs+8256outputs (1major+21666minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ee000, 0xc0000be000, 0x7fff9885407b, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7fff9885407b, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.44user 0.20system 0:00.61elapsed 105%CPU (0avgtext+0avgdata 56036maxresident)k
-0inputs+8264outputs (1major+21388minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ee000, 0xc0000bc000, 0x7fffc668207b, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7fffc668207b, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.48user 0.14system 0:00.59elapsed 104%CPU (0avgtext+0avgdata 56824maxresident)k
-0inputs+8256outputs (1major+21577minor)pagefaults 0swaps
+9.50user 0.10system 0:03.60elapsed 266%CPU (0avgtext+0avgdata 198220maxresident)k
+0inputs+44192outputs (1021major+47876minor)pagefaults 0swaps
+9.29user 0.17system 0:03.41elapsed 277%CPU (0avgtext+0avgdata 200420maxresident)k
+0inputs+44184outputs (1021major+50699minor)pagefaults 0swaps
+9.26user 0.15system 0:03.33elapsed 282%CPU (0avgtext+0avgdata 199288maxresident)k
+0inputs+44184outputs (1021major+48723minor)pagefaults 0swaps
+9.25user 0.25system 0:03.39elapsed 280%CPU (0avgtext+0avgdata 198536maxresident)k
+0inputs+44192outputs (1021major+50574minor)pagefaults 0swaps
+9.21user 0.16system 0:03.28elapsed 285%CPU (0avgtext+0avgdata 198704maxresident)k
+0inputs+44184outputs (1021major+54713minor)pagefaults 0swaps
 12
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc00010a000, 0xc0000bc000, 0x7fff70c5a07b, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7fff70c5a07b, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.44user 0.19system 0:00.64elapsed 98%CPU (0avgtext+0avgdata 55484maxresident)k
-0inputs+8256outputs (1major+21078minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc000104000, 0xc000074070, 0x7ffeffc5b07b, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffeffc5b07b, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.19system 0:00.80elapsed 77%CPU (0avgtext+0avgdata 56772maxresident)k
-0inputs+8256outputs (1major+21713minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000bc000, 0x7ffc1539407b, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffc1539407b, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.44user 0.18system 0:00.81elapsed 76%CPU (0avgtext+0avgdata 56624maxresident)k
-0inputs+8264outputs (1major+21595minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc000116000, 0xc0000bc000, 0x7ffd1d78907b, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffd1d78907b, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.20system 0:00.59elapsed 105%CPU (0avgtext+0avgdata 55456maxresident)k
-0inputs+8256outputs (1major+21343minor)pagefaults 0swaps
-panic: open ../data/in/small/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000bc000, 0x7ffe7bfc207b, 0x5, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffe7bfc207b, 0x5)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.17system 0:00.58elapsed 103%CPU (0avgtext+0avgdata 56900maxresident)k
-0inputs+8256outputs (1major+21367minor)pagefaults 0swaps
+9.19user 0.16system 0:02.76elapsed 338%CPU (0avgtext+0avgdata 202956maxresident)k
+0inputs+40976outputs (1021major+51632minor)pagefaults 0swaps
+9.06user 0.21system 0:03.13elapsed 295%CPU (0avgtext+0avgdata 198232maxresident)k
+0inputs+40992outputs (1021major+51318minor)pagefaults 0swaps
+9.01user 0.15system 0:02.77elapsed 330%CPU (0avgtext+0avgdata 198712maxresident)k
+0inputs+40976outputs (1021major+50322minor)pagefaults 0swaps
+9.17user 0.15system 0:02.83elapsed 328%CPU (0avgtext+0avgdata 198392maxresident)k
+0inputs+40976outputs (1021major+58414minor)pagefaults 0swaps
+9.12user 0.20system 0:02.78elapsed 334%CPU (0avgtext+0avgdata 198788maxresident)k
+0inputs+40984outputs (1021major+49259minor)pagefaults 0swaps
 mixture
 ================
 1
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 1 [running]:
-proj2/scheduler.process(0xc0000d2000)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
-proj2/scheduler.RunSequential(0x7fffbe65d085, 0x7, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
-proj2/scheduler.Schedule(0x7fffbe65d085, 0x7, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
-main.main()
-	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.20system 0:00.61elapsed 102%CPU (0avgtext+0avgdata 56800maxresident)k
-0inputs+8264outputs (1major+21554minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 1 [running]:
-proj2/scheduler.process(0xc0000be000)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
-proj2/scheduler.RunSequential(0x7fff8d408085, 0x7, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
-proj2/scheduler.Schedule(0x7fff8d408085, 0x7, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
-main.main()
-	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
-exit status 2
-Command exited with non-zero status 1
-0.45user 0.17system 0:00.59elapsed 105%CPU (0avgtext+0avgdata 56836maxresident)k
-0inputs+8256outputs (1major+21406minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 1 [running]:
-proj2/scheduler.process(0xc0000be000)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
-proj2/scheduler.RunSequential(0x7ffde13bf085, 0x7, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
-proj2/scheduler.Schedule(0x7ffde13bf085, 0x7, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
-main.main()
-	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
-exit status 2
-Command exited with non-zero status 1
-0.49user 0.14system 0:00.61elapsed 102%CPU (0avgtext+0avgdata 55704maxresident)k
-0inputs+8256outputs (1major+21337minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 1 [running]:
-proj2/scheduler.process(0xc0000d4000)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
-proj2/scheduler.RunSequential(0x7ffc96e6b085, 0x7, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
-proj2/scheduler.Schedule(0x7ffc96e6b085, 0x7, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
-main.main()
-	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.20system 0:00.59elapsed 106%CPU (0avgtext+0avgdata 55512maxresident)k
-0inputs+8264outputs (1major+21137minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 1 [running]:
-proj2/scheduler.process(0xc0000be000)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
-proj2/scheduler.RunSequential(0x7fff6b094085, 0x7, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
-proj2/scheduler.Schedule(0x7fff6b094085, 0x7, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
-main.main()
-	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
-exit status 2
-Command exited with non-zero status 1
-0.39user 0.21system 0:00.57elapsed 106%CPU (0avgtext+0avgdata 57120maxresident)k
-0inputs+8256outputs (1major+21669minor)pagefaults 0swaps
+38.01user 0.23system 0:40.58elapsed 94%CPU (0avgtext+0avgdata 600004maxresident)k
+145016inputs+191936outputs (1021major+88285minor)pagefaults 0swaps
+37.47user 0.18system 0:38.11elapsed 98%CPU (0avgtext+0avgdata 600096maxresident)k
+0inputs+191936outputs (1021major+87748minor)pagefaults 0swaps
+37.41user 0.30system 0:48.70elapsed 77%CPU (0avgtext+0avgdata 733304maxresident)k
+0inputs+191944outputs (1021major+98706minor)pagefaults 0swaps
+37.46user 0.25system 0:42.25elapsed 89%CPU (0avgtext+0avgdata 598912maxresident)k
+0inputs+191936outputs (1021major+89703minor)pagefaults 0swaps
+37.60user 0.23system 0:40.45elapsed 93%CPU (0avgtext+0avgdata 600128maxresident)k
+0inputs+191928outputs (1021major+88218minor)pagefaults 0swaps
 2
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000c8000, 0xc0000ba000, 0x7fff2081907a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7fff2081907a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.19system 0:00.62elapsed 99%CPU (0avgtext+0avgdata 55740maxresident)k
-0inputs+8264outputs (1major+21086minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000c8000, 0xc0000ba000, 0x7ffde91b507a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffde91b507a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.39user 0.21system 0:00.61elapsed 99%CPU (0avgtext+0avgdata 56572maxresident)k
-0inputs+8264outputs (1major+21041minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000c8000, 0xc0000ba000, 0x7ffedcfca07a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffedcfca07a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.35user 0.25system 0:00.60elapsed 100%CPU (0avgtext+0avgdata 55808maxresident)k
-0inputs+8256outputs (1major+21088minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000c8000, 0xc0000ba000, 0x7ffd7c39407a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffd7c39407a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.18system 0:00.71elapsed 85%CPU (0avgtext+0avgdata 57220maxresident)k
-0inputs+8256outputs (1major+21374minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000c8000, 0xc0000ba000, 0x7ffe8bf9d07a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffe8bf9d07a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.41user 0.21system 0:00.58elapsed 107%CPU (0avgtext+0avgdata 57188maxresident)k
-0inputs+8264outputs (1major+21772minor)pagefaults 0swaps
+41.59user 0.29system 0:16.49elapsed 253%CPU (0avgtext+0avgdata 1452072maxresident)k
+0inputs+191944outputs (1021major+135167minor)pagefaults 0swaps
+41.76user 0.28system 0:15.60elapsed 269%CPU (0avgtext+0avgdata 1353120maxresident)k
+0inputs+191928outputs (1021major+134580minor)pagefaults 0swaps
+41.23user 0.35system 0:27.91elapsed 148%CPU (0avgtext+0avgdata 1354360maxresident)k
+0inputs+191936outputs (1021major+140178minor)pagefaults 0swaps
+41.26user 0.35system 0:18.07elapsed 230%CPU (0avgtext+0avgdata 1353532maxresident)k
+0inputs+191936outputs (1021major+134663minor)pagefaults 0swaps
+41.34user 0.35system 0:15.72elapsed 265%CPU (0avgtext+0avgdata 1354212maxresident)k
+0inputs+191936outputs (1021major+134663minor)pagefaults 0swaps
 4
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000d2000, 0xc0000740e0, 0x7ffee5a2007a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc00009c060, 0x7ffee5a2007a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc00009c060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.18system 0:00.59elapsed 103%CPU (0avgtext+0avgdata 56540maxresident)k
-0inputs+8264outputs (1major+21428minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc0000fa000, 0xc000074070, 0x7ffdbe8d007a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffdbe8d007a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.37user 0.23system 0:00.59elapsed 102%CPU (0avgtext+0avgdata 56496maxresident)k
-0inputs+8256outputs (1major+21088minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000da000, 0xc0000740e0, 0x7ffc10f1e07a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffc10f1e07a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.19system 0:00.61elapsed 100%CPU (0avgtext+0avgdata 55728maxresident)k
-0inputs+8256outputs (1major+21208minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc00010c000, 0xc000074070, 0x7ffd3e90407a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffd3e90407a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.40user 0.20system 0:00.59elapsed 104%CPU (0avgtext+0avgdata 56068maxresident)k
-0inputs+8256outputs (1major+21309minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc00010a000, 0xc000074070, 0x7ffcb210d07a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffcb210d07a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.41user 0.19system 0:00.56elapsed 107%CPU (0avgtext+0avgdata 56916maxresident)k
-0inputs+8264outputs (1major+21708minor)pagefaults 0swaps
+45.99user 0.40system 0:22.64elapsed 204%CPU (0avgtext+0avgdata 1560872maxresident)k
+0inputs+191936outputs (1021major+184735minor)pagefaults 0swaps
+46.46user 0.37system 0:17.56elapsed 266%CPU (0avgtext+0avgdata 1555032maxresident)k
+0inputs+191944outputs (1021major+161925minor)pagefaults 0swaps
+46.22user 0.42system 0:15.14elapsed 307%CPU (0avgtext+0avgdata 1502492maxresident)k
+0inputs+191936outputs (1021major+135484minor)pagefaults 0swaps
+46.68user 0.34system 0:15.11elapsed 311%CPU (0avgtext+0avgdata 1552708maxresident)k
+0inputs+191936outputs (1021major+160257minor)pagefaults 0swaps
+46.92user 0.35system 0:15.79elapsed 299%CPU (0avgtext+0avgdata 1474396maxresident)k
+0inputs+191936outputs (1021major+152136minor)pagefaults 0swaps
 6
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc000102000, 0xc000074070, 0x7ffdf9bd907a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffdf9bd907a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.40user 0.20system 0:00.60elapsed 102%CPU (0avgtext+0avgdata 56752maxresident)k
-0inputs+8256outputs (1major+21553minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000bc000, 0x7ffcbc95b07a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffcbc95b07a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.48user 0.17system 0:00.62elapsed 103%CPU (0avgtext+0avgdata 55580maxresident)k
-0inputs+8264outputs (1major+21555minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000bc000, 0x7ffd114e507a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffd114e507a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.40user 0.21system 0:00.60elapsed 102%CPU (0avgtext+0avgdata 57044maxresident)k
-0inputs+8256outputs (1major+21418minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000bc000, 0x7ffd2610907a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffd2610907a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.19system 0:00.62elapsed 100%CPU (0avgtext+0avgdata 55716maxresident)k
-0inputs+8256outputs (1major+21225minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 33 [running]:
-proj2/scheduler.getTask(0xc0000e8000, 0xc000074070, 0x7ffee794207a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc0000d4000, 0x7ffee794207a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc0000d4000, 0xc0000bc190, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.41user 0.19system 0:00.58elapsed 104%CPU (0avgtext+0avgdata 57400maxresident)k
-0inputs+8264outputs (1major+21517minor)pagefaults 0swaps
+46.68user 0.36system 0:23.55elapsed 199%CPU (0avgtext+0avgdata 1595504maxresident)k
+0inputs+191936outputs (1021major+161282minor)pagefaults 0swaps
+52.57user 0.39system 0:17.13elapsed 309%CPU (0avgtext+0avgdata 1469308maxresident)k
+0inputs+191944outputs (1021major+128141minor)pagefaults 0swaps
+48.93user 0.32system 0:17.99elapsed 273%CPU (0avgtext+0avgdata 1509328maxresident)k
+0inputs+191928outputs (1021major+140159minor)pagefaults 0swaps
+47.99user 0.38system 0:18.15elapsed 266%CPU (0avgtext+0avgdata 1404092maxresident)k
+0inputs+191936outputs (1021major+111176minor)pagefaults 0swaps
+50.39user 0.40system 0:15.49elapsed 327%CPU (0avgtext+0avgdata 1411692maxresident)k
+0inputs+191944outputs (1021major+103732minor)pagefaults 0swaps
 8
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc000106000, 0xc0000bc000, 0x7ffd0e83307a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffd0e83307a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.40user 0.23system 0:00.64elapsed 98%CPU (0avgtext+0avgdata 55692maxresident)k
-0inputs+8256outputs (1major+21271minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc0000f6000, 0xc000074070, 0x7fff11ab407a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7fff11ab407a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.18system 0:00.57elapsed 106%CPU (0avgtext+0avgdata 56832maxresident)k
-0inputs+8256outputs (1major+21760minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000e8000, 0xc0000bc000, 0x7ffedba5a07a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffedba5a07a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.46user 0.13system 0:00.74elapsed 81%CPU (0avgtext+0avgdata 57288maxresident)k
-0inputs+8264outputs (1major+21435minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc00010c000, 0xc000074070, 0x7ffe787c207a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffe787c207a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.20system 0:00.57elapsed 110%CPU (0avgtext+0avgdata 56816maxresident)k
-0inputs+8256outputs (1major+21604minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc0000f6000, 0xc000074070, 0x7fffe7c6907a, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7fffe7c6907a, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.19system 0:00.59elapsed 104%CPU (0avgtext+0avgdata 56548maxresident)k
-0inputs+8264outputs (1major+21599minor)pagefaults 0swaps
+55.47user 0.34system 0:16.28elapsed 342%CPU (0avgtext+0avgdata 1381820maxresident)k
+0inputs+193976outputs (1021major+107162minor)pagefaults 0swaps
+54.14user 0.42system 0:16.32elapsed 334%CPU (0avgtext+0avgdata 1471268maxresident)k
+0inputs+193976outputs (1021major+152612minor)pagefaults 0swaps
+54.31user 0.41system 0:17.39elapsed 314%CPU (0avgtext+0avgdata 1522912maxresident)k
+0inputs+193968outputs (1021major+154800minor)pagefaults 0swaps
+58.67user 0.45system 0:19.11elapsed 309%CPU (0avgtext+0avgdata 1472912maxresident)k
+0inputs+193976outputs (1021major+154297minor)pagefaults 0swaps
+76.84user 0.54system 0:26.07elapsed 296%CPU (0avgtext+0avgdata 1449920maxresident)k
+0inputs+193968outputs (1021major+121911minor)pagefaults 0swaps
 10
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc00010a000, 0xc000074070, 0x7ffc4dc7a079, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc0000da000, 0x7ffc4dc7a079, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc0000da000, 0xc0000c4190, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.39user 0.23system 0:00.62elapsed 100%CPU (0avgtext+0avgdata 57036maxresident)k
-0inputs+8256outputs (1major+21761minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ee000, 0xc0000bc000, 0x7ffe6e02c079, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffe6e02c079, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.44user 0.18system 0:00.59elapsed 106%CPU (0avgtext+0avgdata 55736maxresident)k
-0inputs+8256outputs (1major+21316minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ee000, 0xc0000bc000, 0x7ffd35ed8079, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffd35ed8079, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.21system 0:00.58elapsed 108%CPU (0avgtext+0avgdata 54992maxresident)k
-0inputs+8264outputs (1major+20957minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ee000, 0xc0000bc000, 0x7ffe19dd0079, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffe19dd0079, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.18system 0:00.58elapsed 105%CPU (0avgtext+0avgdata 57076maxresident)k
-0inputs+8256outputs (1major+21390minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc0000fe000, 0xc000074070, 0x7ffe338e5079, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffe338e5079, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.44user 0.19system 0:00.59elapsed 106%CPU (0avgtext+0avgdata 55644maxresident)k
-0inputs+8264outputs (1major+21161minor)pagefaults 0swaps
+66.49user 0.51system 0:19.54elapsed 342%CPU (0avgtext+0avgdata 1497476maxresident)k
+0inputs+210552outputs (1021major+157531minor)pagefaults 0swaps
+59.54user 0.43system 0:18.65elapsed 321%CPU (0avgtext+0avgdata 1498024maxresident)k
+0inputs+210552outputs (1021major+170547minor)pagefaults 0swaps
+60.21user 0.56system 0:18.78elapsed 323%CPU (0avgtext+0avgdata 1497868maxresident)k
+0inputs+210560outputs (1021major+168772minor)pagefaults 0swaps
+59.33user 0.39system 0:18.79elapsed 317%CPU (0avgtext+0avgdata 1421856maxresident)k
+0inputs+210560outputs (1021major+149697minor)pagefaults 0swaps
+58.61user 0.48system 0:19.53elapsed 302%CPU (0avgtext+0avgdata 1530968maxresident)k
+0inputs+210560outputs (1021major+153996minor)pagefaults 0swaps
 12
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc00010e000, 0xc000074070, 0x7ffdd9d6e079, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc0000d8000, 0x7ffdd9d6e079, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc0000d8000, 0xc0000c2190, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.18system 0:00.62elapsed 98%CPU (0avgtext+0avgdata 57352maxresident)k
-0inputs+8256outputs (1major+21690minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000bc000, 0x7fff4ad66079, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7fff4ad66079, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.19system 0:00.59elapsed 104%CPU (0avgtext+0avgdata 56660maxresident)k
-0inputs+8264outputs (1major+21062minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000e8000, 0xc0000bc000, 0x7ffe914e9079, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffe914e9079, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.40user 0.23system 0:00.59elapsed 106%CPU (0avgtext+0avgdata 56732maxresident)k
-0inputs+8256outputs (1major+21646minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000bc000, 0x7ffe49732079, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffe49732079, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.41user 0.21system 0:00.59elapsed 105%CPU (0avgtext+0avgdata 57280maxresident)k
-0inputs+8256outputs (1major+21911minor)pagefaults 0swaps
-panic: open ../data/in/mixture/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000c0000, 0x7ffd753aa079, 0x7, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffd753aa079, 0x7)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.48user 0.16system 0:00.61elapsed 105%CPU (0avgtext+0avgdata 57224maxresident)k
-0inputs+8272outputs (1major+21651minor)pagefaults 0swaps
+61.23user 0.57system 0:16.01elapsed 386%CPU (0avgtext+0avgdata 1536796maxresident)k
+0inputs+191936outputs (1021major+120456minor)pagefaults 0swaps
+54.95user 0.42system 0:23.53elapsed 235%CPU (0avgtext+0avgdata 1405872maxresident)k
+0inputs+191944outputs (1021major+136327minor)pagefaults 0swaps
+55.96user 0.51system 0:15.74elapsed 358%CPU (0avgtext+0avgdata 1398308maxresident)k
+0inputs+191936outputs (1021major+110548minor)pagefaults 0swaps
+62.65user 0.49system 0:16.18elapsed 390%CPU (0avgtext+0avgdata 1550380maxresident)k
+0inputs+191936outputs (1021major+133768minor)pagefaults 0swaps
+56.09user 0.41system 0:15.65elapsed 361%CPU (0avgtext+0avgdata 1438552maxresident)k
+0inputs+191944outputs (1021major+119581minor)pagefaults 0swaps
 big
 ================
 1
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 1 [running]:
-proj2/scheduler.process(0xc0000be000)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
-proj2/scheduler.RunSequential(0x7ffe7dafa089, 0x3, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
-proj2/scheduler.Schedule(0x7ffe7dafa089, 0x3, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
-main.main()
-	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
-exit status 2
-Command exited with non-zero status 1
-0.41user 0.22system 0:00.60elapsed 106%CPU (0avgtext+0avgdata 55488maxresident)k
-0inputs+8256outputs (1major+21271minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 1 [running]:
-proj2/scheduler.process(0xc0000e0000)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
-proj2/scheduler.RunSequential(0x7ffdf9ace089, 0x3, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
-proj2/scheduler.Schedule(0x7ffdf9ace089, 0x3, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
-main.main()
-	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
-exit status 2
-Command exited with non-zero status 1
-0.44user 0.19system 0:00.60elapsed 105%CPU (0avgtext+0avgdata 56076maxresident)k
-0inputs+8256outputs (1major+21102minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 1 [running]:
-proj2/scheduler.process(0xc0000d2000)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
-proj2/scheduler.RunSequential(0x7ffc35dbc089, 0x3, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
-proj2/scheduler.Schedule(0x7ffc35dbc089, 0x3, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
-main.main()
-	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.20system 0:00.67elapsed 95%CPU (0avgtext+0avgdata 56080maxresident)k
-0inputs+8264outputs (1major+21372minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 1 [running]:
-proj2/scheduler.process(0xc0000be000)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
-proj2/scheduler.RunSequential(0x7fffd72c9089, 0x3, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
-proj2/scheduler.Schedule(0x7fffd72c9089, 0x3, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
-main.main()
-	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.20system 0:00.62elapsed 102%CPU (0avgtext+0avgdata 56152maxresident)k
-0inputs+8256outputs (1major+21441minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 1 [running]:
-proj2/scheduler.process(0xc0000be000)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:30 +0x647
-proj2/scheduler.RunSequential(0x7ffe66fbf089, 0x3, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/sequential.go:75 +0x9c
-proj2/scheduler.Schedule(0x7ffe66fbf089, 0x3, 0x5336e1, 0x1, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/scheduler.go:17 +0x142
-main.main()
-	/home/zhiyuanxie/project-2-shiitavie/proj2/editor/editor.go:33 +0x141
-exit status 2
-Command exited with non-zero status 1
-0.41user 0.21system 0:00.56elapsed 111%CPU (0avgtext+0avgdata 56784maxresident)k
-0inputs+8256outputs (1major+21524minor)pagefaults 0swaps
+96.77user 0.46system 1:44.04elapsed 93%CPU (0avgtext+0avgdata 895916maxresident)k
+311408inputs+456680outputs (1021major+78664minor)pagefaults 0swaps
+95.44user 0.41system 1:40.31elapsed 95%CPU (0avgtext+0avgdata 910848maxresident)k
+0inputs+456680outputs (1021major+78504minor)pagefaults 0swaps
+95.36user 0.42system 1:36.93elapsed 98%CPU (0avgtext+0avgdata 849672maxresident)k
+0inputs+456672outputs (1021major+77885minor)pagefaults 0swaps
+95.24user 0.35system 1:37.53elapsed 98%CPU (0avgtext+0avgdata 896004maxresident)k
+0inputs+456680outputs (1021major+78915minor)pagefaults 0swaps
+94.88user 0.34system 1:38.01elapsed 97%CPU (0avgtext+0avgdata 919292maxresident)k
+0inputs+456688outputs (1021major+79072minor)pagefaults 0swaps
 2
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000c8000, 0xc0000ba000, 0x7ffd2175807e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffd2175807e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.44user 0.18system 0:00.58elapsed 106%CPU (0avgtext+0avgdata 57640maxresident)k
-0inputs+8264outputs (1major+21353minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000c8000, 0xc0000ba000, 0x7ffe1ed2507e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffe1ed2507e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.44user 0.18system 0:00.60elapsed 104%CPU (0avgtext+0avgdata 56156maxresident)k
-0inputs+8256outputs (1major+21655minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000c8000, 0xc0000ba000, 0x7fff225d907e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7fff225d907e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.20system 0:00.58elapsed 108%CPU (0avgtext+0avgdata 57160maxresident)k
-0inputs+8256outputs (1major+21896minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000c8000, 0xc0000ba000, 0x7ffcc649807e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffcc649807e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.44user 0.19system 0:00.80elapsed 79%CPU (0avgtext+0avgdata 56824maxresident)k
-0inputs+8256outputs (1major+21538minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc0000e2000, 0xc000074070, 0x7ffc94f7b07e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffc94f7b07e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.44user 0.20system 0:00.61elapsed 105%CPU (0avgtext+0avgdata 55860maxresident)k
-0inputs+8256outputs (1major+21424minor)pagefaults 0swaps
+107.41user 0.71system 0:45.15elapsed 239%CPU (0avgtext+0avgdata 2715600maxresident)k
+0inputs+456680outputs (1021major+243260minor)pagefaults 0swaps
+106.99user 0.64system 0:37.72elapsed 285%CPU (0avgtext+0avgdata 2536840maxresident)k
+0inputs+456680outputs (1021major+199453minor)pagefaults 0swaps
+107.82user 0.58system 0:37.81elapsed 286%CPU (0avgtext+0avgdata 2521460maxresident)k
+0inputs+456688outputs (1021major+183166minor)pagefaults 0swaps
+107.74user 0.63system 0:38.83elapsed 279%CPU (0avgtext+0avgdata 2531580maxresident)k
+0inputs+456688outputs (1021major+214393minor)pagefaults 0swaps
+106.92user 0.67system 0:44.69elapsed 240%CPU (0avgtext+0avgdata 2810412maxresident)k
+0inputs+456680outputs (1021major+272642minor)pagefaults 0swaps
 4
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000d4000, 0xc0000bc000, 0x7ffc120ea07e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffc120ea07e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.21system 0:00.60elapsed 106%CPU (0avgtext+0avgdata 55776maxresident)k
-0inputs+8256outputs (1major+21323minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc0000f8000, 0xc0000d0000, 0x7fffe374007e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7fffe374007e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.41user 0.22system 0:00.59elapsed 107%CPU (0avgtext+0avgdata 55852maxresident)k
-0inputs+8256outputs (1major+21184minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 5 [running]:
-proj2/scheduler.getTask(0xc0000f4000, 0xc0000dc000, 0x7ffe509f507e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc0000d2000, 0x7ffe509f507e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc0000d2000, 0xc00006a1a0, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.18system 0:00.56elapsed 108%CPU (0avgtext+0avgdata 57100maxresident)k
-0inputs+8264outputs (1major+21432minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000cc000, 0xc0000bc000, 0x7ffe2281e07e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffe2281e07e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.47user 0.16system 0:00.82elapsed 77%CPU (0avgtext+0avgdata 55784maxresident)k
-0inputs+8256outputs (1major+21261minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000cc000, 0xc0000bc000, 0x7ffed2bd407e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffed2bd407e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.19system 0:00.60elapsed 104%CPU (0avgtext+0avgdata 56520maxresident)k
-0inputs+8256outputs (1major+21231minor)pagefaults 0swaps
+135.71user 0.78system 0:42.17elapsed 323%CPU (0avgtext+0avgdata 3087692maxresident)k
+0inputs+456680outputs (1021major+224762minor)pagefaults 0swaps
+135.61user 0.79system 0:39.01elapsed 349%CPU (0avgtext+0avgdata 2983968maxresident)k
+0inputs+456680outputs (1021major+407633minor)pagefaults 0swaps
+136.65user 0.69system 0:44.62elapsed 307%CPU (0avgtext+0avgdata 3080496maxresident)k
+0inputs+456680outputs (1021major+210266minor)pagefaults 0swaps
+136.87user 0.76system 0:40.27elapsed 341%CPU (0avgtext+0avgdata 3081984maxresident)k
+0inputs+456680outputs (1021major+302776minor)pagefaults 0swaps
+140.61user 0.96system 0:50.04elapsed 282%CPU (0avgtext+0avgdata 3086424maxresident)k
+0inputs+500736outputs (1021major+315276minor)pagefaults 0swaps
 6
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000bc000, 0x7ffe95ae907e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffe95ae907e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.47user 0.16system 0:00.62elapsed 101%CPU (0avgtext+0avgdata 55800maxresident)k
-0inputs+8264outputs (1major+21238minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000e8000, 0xc0000bc000, 0x7ffc9d72007e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffc9d72007e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.44user 0.17system 0:00.63elapsed 97%CPU (0avgtext+0avgdata 57028maxresident)k
-0inputs+8256outputs (1major+21608minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000bc000, 0x7fff2afed07e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7fff2afed07e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.20system 0:00.58elapsed 107%CPU (0avgtext+0avgdata 56696maxresident)k
-0inputs+8256outputs (1major+21608minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000bc000, 0x7ffd1c31207e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffd1c31207e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.36user 0.24system 0:00.57elapsed 104%CPU (0avgtext+0avgdata 57088maxresident)k
-0inputs+8264outputs (1major+21174minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000bc000, 0x7ffd88a8607e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffd88a8607e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.17system 0:00.55elapsed 110%CPU (0avgtext+0avgdata 55988maxresident)k
-0inputs+8264outputs (1major+20695minor)pagefaults 0swaps
+138.26user 0.90system 0:55.06elapsed 252%CPU (0avgtext+0avgdata 3436468maxresident)k
+0inputs+512592outputs (1021major+338375minor)pagefaults 0swaps
+146.77user 0.90system 0:45.61elapsed 323%CPU (0avgtext+0avgdata 3193108maxresident)k
+0inputs+512680outputs (1021major+169742minor)pagefaults 0swaps
+144.42user 0.94system 0:48.58elapsed 299%CPU (0avgtext+0avgdata 3104416maxresident)k
+0inputs+512616outputs (1021major+253938minor)pagefaults 0swaps
+148.37user 0.97system 0:40.69elapsed 367%CPU (0avgtext+0avgdata 3097580maxresident)k
+0inputs+512656outputs (1021major+168842minor)pagefaults 0swaps
+145.86user 1.10system 0:40.29elapsed 364%CPU (0avgtext+0avgdata 3133080maxresident)k
+0inputs+512576outputs (1021major+214253minor)pagefaults 0swaps
 8
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc000110000, 0xc000074070, 0x7ffca00ad07e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffca00ad07e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.49user 0.14system 0:00.56elapsed 114%CPU (0avgtext+0avgdata 56216maxresident)k
-0inputs+8256outputs (1major+21569minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000bc000, 0x7ffd64c0a07e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffd64c0a07e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.19system 0:00.59elapsed 105%CPU (0avgtext+0avgdata 55532maxresident)k
-0inputs+8264outputs (1major+21307minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000ba000, 0x7fffc088007e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7fffc088007e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.18system 0:00.58elapsed 105%CPU (0avgtext+0avgdata 55596maxresident)k
-0inputs+8256outputs (1major+20993minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000c6000, 0x7ffc85c7d07e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffc85c7d07e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.19system 0:00.58elapsed 106%CPU (0avgtext+0avgdata 55344maxresident)k
-0inputs+8256outputs (1major+21150minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000bc000, 0x7ffe42e2b07e, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffe42e2b07e, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.43user 0.17system 0:00.58elapsed 103%CPU (0avgtext+0avgdata 57196maxresident)k
-0inputs+8264outputs (1major+21032minor)pagefaults 0swaps
+150.26user 0.88system 0:38.78elapsed 389%CPU (0avgtext+0avgdata 3078176maxresident)k
+0inputs+512632outputs (1021major+242641minor)pagefaults 0swaps
+150.69user 0.93system 0:39.81elapsed 380%CPU (0avgtext+0avgdata 3164572maxresident)k
+0inputs+512664outputs (1021major+217679minor)pagefaults 0swaps
+152.64user 0.91system 0:39.98elapsed 384%CPU (0avgtext+0avgdata 3094568maxresident)k
+0inputs+512640outputs (1021major+212108minor)pagefaults 0swaps
+150.09user 0.99system 0:57.08elapsed 264%CPU (0avgtext+0avgdata 3073584maxresident)k
+0inputs+512680outputs (1021major+240815minor)pagefaults 0swaps
+149.46user 1.08system 0:39.65elapsed 379%CPU (0avgtext+0avgdata 3087816maxresident)k
+0inputs+512768outputs (1021major+222973minor)pagefaults 0swaps
 10
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 33 [running]:
-proj2/scheduler.getTask(0xc0000f8000, 0xc0000e2070, 0x7fff3e38f07d, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc0000d4000, 0x7fff3e38f07d, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc0000d4000, 0xc0000bc190, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.38user 0.24system 0:00.61elapsed 102%CPU (0avgtext+0avgdata 56876maxresident)k
-0inputs+8264outputs (1major+21756minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000f0000, 0xc0000be000, 0x7ffde147307d, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffde147307d, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.44user 0.16system 0:00.60elapsed 102%CPU (0avgtext+0avgdata 56232maxresident)k
-0inputs+8256outputs (1major+20837minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ee000, 0xc0000be000, 0x7ffe92ceb07d, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffe92ceb07d, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.38user 0.24system 0:00.58elapsed 106%CPU (0avgtext+0avgdata 55748maxresident)k
-0inputs+8256outputs (1major+20691minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000e6000, 0xc0000740e0, 0x7ffdfee5807d, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffdfee5807d, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.19system 0:00.61elapsed 101%CPU (0avgtext+0avgdata 55432maxresident)k
-0inputs+8264outputs (1major+20952minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc000106000, 0xc0000be000, 0x7ffea96a807d, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffea96a807d, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.48user 0.14system 0:00.59elapsed 105%CPU (0avgtext+0avgdata 56916maxresident)k
-0inputs+8272outputs (1major+21792minor)pagefaults 0swaps
+162.46user 1.27system 0:46.85elapsed 349%CPU (0avgtext+0avgdata 3078776maxresident)k
+0inputs+566448outputs (1021major+285633minor)pagefaults 0swaps
+164.70user 1.22system 0:57.06elapsed 290%CPU (0avgtext+0avgdata 3078536maxresident)k
+0inputs+566352outputs (1021major+219983minor)pagefaults 0swaps
+164.24user 1.35system 0:47.88elapsed 345%CPU (0avgtext+0avgdata 3079968maxresident)k
+0inputs+566400outputs (1021major+270639minor)pagefaults 0swaps
+160.57user 1.31system 0:47.52elapsed 340%CPU (0avgtext+0avgdata 3084000maxresident)k
+0inputs+566424outputs (1021major+273446minor)pagefaults 0swaps
+162.30user 1.33system 0:50.06elapsed 326%CPU (0avgtext+0avgdata 3081852maxresident)k
+0inputs+566344outputs (1021major+317532minor)pagefaults 0swaps
 12
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc000100000, 0xc000074070, 0x7fff8d70107d, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7fff8d70107d, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.41user 0.22system 0:00.61elapsed 103%CPU (0avgtext+0avgdata 54824maxresident)k
-0inputs+8256outputs (1major+21235minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000da000, 0xc0000740e0, 0x7ffdee68207d, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffdee68207d, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.42user 0.20system 0:00.60elapsed 103%CPU (0avgtext+0avgdata 57028maxresident)k
-0inputs+8264outputs (1major+21465minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 18 [running]:
-proj2/scheduler.getTask(0xc000104000, 0xc000074070, 0x7ffdf71bc07d, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffdf71bc07d, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc000096330, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.37user 0.24system 0:00.61elapsed 101%CPU (0avgtext+0avgdata 56604maxresident)k
-0inputs+8256outputs (1major+21519minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ee000, 0xc0000d4000, 0x7ffc6d17307d, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7ffc6d17307d, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.52user 0.12system 0:00.60elapsed 107%CPU (0avgtext+0avgdata 55148maxresident)k
-0inputs+8256outputs (1major+21410minor)pagefaults 0swaps
-panic: open ../data/in/big/IMG_2029.png: no such file or directory
-
-goroutine 6 [running]:
-proj2/scheduler.getTask(0xc0000ec000, 0xc0000be000, 0x7fff1551b07d, 0x3, 0x0)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:25 +0x22f
-proj2/scheduler.getTaskStream(0xc000094060, 0x7fff1551b07d, 0x3)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:40 +0x94
-proj2/scheduler.taskBuffer(0xc000094060, 0xc00006a340, 0x1, 0x1)
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:48 +0x9f
-created by proj2/scheduler.generator
-	/home/zhiyuanxie/project-2-shiitavie/proj2/scheduler/pipeline.go:56 +0x76
-exit status 2
-Command exited with non-zero status 1
-0.48user 0.14system 0:00.60elapsed 104%CPU (0avgtext+0avgdata 55780maxresident)k
-0inputs+8272outputs (1major+21408minor)pagefaults 0swaps
+166.60user 1.42system 0:43.60elapsed 385%CPU (0avgtext+0avgdata 3078816maxresident)k
+0inputs+512680outputs (1021major+253218minor)pagefaults 0swaps
+162.80user 1.18system 0:39.72elapsed 412%CPU (0avgtext+0avgdata 3083752maxresident)k
+0inputs+512600outputs (1021major+267083minor)pagefaults 0swaps
+163.37user 1.61system 0:40.96elapsed 402%CPU (0avgtext+0avgdata 3084920maxresident)k
+0inputs+512728outputs (1021major+305624minor)pagefaults 0swaps
+167.45user 1.39system 0:39.14elapsed 431%CPU (0avgtext+0avgdata 3072164maxresident)k
+0inputs+512576outputs (1021major+241806minor)pagefaults 0swaps
+168.49user 1.19system 0:44.10elapsed 384%CPU (0avgtext+0avgdata 3078532maxresident)k
+0inputs+512560outputs (1021major+292332minor)pagefaults 0swaps
