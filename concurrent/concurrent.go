@@ -24,7 +24,9 @@ type ExecutorService interface {
 	// Submits a task for execution and returns a Future representing that task.
 	Submit(task interface{}) Future
 
-	// Shutdown initiates a shutdown of the service. It is unsafe to call Shutdown at the same time as the Submit method. All tasks must be submitted before calling Shutdown. All Submit calls during and after the call to the Shutdown method will be ignored. A goroutine that calls Shutdown is blocked until the service is completely shutdown (i.e., no more pending tasks and all goroutines spawned by the service are terminated).
+	// Shutdown initiates a shutdown of the service. It is unsafe to call Shutdown at the same time as the Submit method. All tasks must be submitted before calling Shutdown. 
+	//All Submit calls during and after the call to the Shutdown method will be ignored. 
+	//A goroutine that calls Shutdown is blocked until the service is completely shutdown (i.e., no more pending tasks and all goroutines spawned by the service are terminated).
 	Shutdown()
 }
 
