@@ -3,6 +3,7 @@ package concurrent
 import (
 	"math/rand"
 	"sync"
+	"time"
 )
 
 type WBCtx struct { //working balance context
@@ -64,6 +65,7 @@ func (WBCtx *WBCtx) run(threadID int) {
 
 		// the chance to balance increases as the queue size decreases
 		if (rand.Intn(size+1) == size) {
+			rand.Seed(time.Now().UnixNano())
 			victim := rand.Intn(WBCtx.capacity)
 
 			var min, max int
@@ -110,6 +112,7 @@ func (WBCtx *WBCtx) Submit(task interface{}) Future{
 		return nil
 	}
 
+	rand.Seed(time.Now().UnixNano())
 	receiver := rand.Intn(WBCtx.capacity)
 	var wg sync.WaitGroup
 	wg.Add(1)

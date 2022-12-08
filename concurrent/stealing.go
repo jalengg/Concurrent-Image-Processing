@@ -3,6 +3,7 @@ package concurrent
 import (
 	"math/rand"
 	"sync"
+	"time"
 )
 
 type SCtx struct { //stealing context
@@ -53,6 +54,7 @@ func (SCtx *SCtx) run(threadID int) {
 		} 
 
 		for task == nil {
+			rand.Seed(time.Now().UnixNano())
 			victim := rand.Intn(SCtx.capacity) 
 			if !SCtx.queues[victim].IsEmpty() {
 				task = SCtx.queues[victim].PopTop()
@@ -69,6 +71,7 @@ func (SCtx *SCtx) Submit(task interface{}) Future{
 		return nil
 	}
 
+	rand.Seed(time.Now().UnixNano())
 	receiver := rand.Intn(SCtx.capacity)
 	var wg sync.WaitGroup
 	wg.Add(1)

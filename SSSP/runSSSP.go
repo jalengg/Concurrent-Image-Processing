@@ -17,7 +17,7 @@ const usage = "Usage: runSSSP.go graph_size mode [number of threads] display\n" 
 
 func main() {
 
-	if len(os.Args) < 4 {
+	if len(os.Args) <= 4 {
 		fmt.Println(usage)
 		return
 	}
