@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-const usage = "Usage: editor data_dir mode [number of threads]\n" +
+const usage = "Usage: go run editor.go data_dir mode [number of threads]\n" +
 	"data_dir = The data directory to use to load the images.\n" +
 	"mode     = (s) run the sequential mode, (balance) run the balancing mode, (steal) run the stealing executorservice version\n" +
 	"[number of threads] = Runs the parallel version of the program with the specified number of threads.\n"

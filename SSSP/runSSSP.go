@@ -9,11 +9,11 @@ import (
 )
 
 
-const usage = "Usage: runSSSP.go graph_size mode [number of threads] display\n" +
+const usage = "Usage: go run runSSSP.go graph_size mode [number of threads] display\n" +
 	"graph_size = The number of nodes in a graph.\n" +
 	"mode     = (balance) run the balancing mode, (steal) run the stealing executorservice version\n" +
 	"number of threads = Runs the parallel version of the program with the specified number of threads.\n" +
-	"display = (yes) if you would like to print the graph and results"
+	"display = (yes) if you would like to print the graph and results, (no) if not"
 
 func main() {
 
