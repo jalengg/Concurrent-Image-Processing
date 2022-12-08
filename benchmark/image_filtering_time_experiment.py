@@ -42,8 +42,8 @@ for core in range(2, 13, 2):
         formatted = "(" + instr + ") 2>> output_steal"
         os.system(formatted)
 
-## Balance
-# 
+
+# Balance
 os.system("echo small > output_balance")
 os.system("echo ================ >> output_balance")
 os.system("echo 1 >> output_balance")

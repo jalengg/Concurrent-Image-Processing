@@ -79,7 +79,7 @@ func (SCtx *SCtx) Submit(task interface{}) Future{
 	receiver := rand.Intn(SCtx.capacity)
 	var wg sync.WaitGroup
 	wg.Add(1)
-	future := &shareFuture{task: task, wg: wg, result: nil}
+	future := &shareFuture{task: task, wg: &wg, result: nil}
 	SCtx.queues[receiver].PushBottom(future)
 
 	return future

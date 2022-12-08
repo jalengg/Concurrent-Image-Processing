@@ -15,7 +15,7 @@ type WBCtx struct { //working balance context
 
 type shareFuture struct {
 	task	interface{}
-	wg 		sync.WaitGroup
+	wg 		*sync.WaitGroup
 	result 	interface{}
 }
 
@@ -116,7 +116,7 @@ func (WBCtx *WBCtx) Submit(task interface{}) Future{
 	receiver := rand.Intn(WBCtx.capacity)
 	var wg sync.WaitGroup
 	wg.Add(1)
-	future := &shareFuture{task: task, wg: wg, result: nil}
+	future := &shareFuture{task: task, wg: &wg, result: nil}
 	WBCtx.queues[receiver].PushBottom(future)
 
 	return future
