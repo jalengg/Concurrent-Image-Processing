@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 
 
 #Balance
-f = open("output_balance", "r")
+f = open("mapReduce_output_balance", "r")
 bigdata = {}
 index = ""
 
@@ -18,9 +18,6 @@ for line in f:
     if "small" == line:
         bigdata["small"] = {}
         suba = bigdata["small"]
-    if "mixture" == line:
-        bigdata["mixture"] = {}
-        suba = bigdata["mixture"]
     if "big" == line: 
         bigdata["big"] = {}
         suba = bigdata["big"]
@@ -60,29 +57,27 @@ for size in means:
         speedups[size][cores] = [speedup]
 
 small = [x[-1] for x in speedups['small'].values()]
-mixture = [x[-1] for x in speedups['mixture'].values()]
 big = [x[-1] for x in speedups['big'].values()]
 
 # create graph
 xval = [1, 2, 4, 6, 8, 10, 12]
 
 plt.plot(xval, small, label = "small")
-plt.plot(xval, mixture, label = "mixture")
 plt.plot(xval, big, label = "big")
 plt.xlabel('Number of Threads')
 plt.ylabel('Speedup')
-plt.title('Speedup of balancing algo processing various picture sizes')
+plt.title('Speedup of mapReduce processing various picture sizes with balance executor')
 plt.xticks(xval, ["1","2", "4", "6", "8", "10", "12"])
 
 plt.legend(loc='upper left') 
 
 
-plt.savefig('Balance_speedup.png')
+plt.savefig('MapReduce_Balance_speedup.png')
 
 plt.clf()
 
 #Steal 
-f = open("output_steal", "r")
+f = open("mapReduce_output_steal", "r")
 bigdata = {}
 index = ""
 
@@ -93,9 +88,6 @@ for line in f:
     if "small" == line:
         bigdata["small"] = {}
         suba = bigdata["small"]
-    if "mixture" == line:
-        bigdata["mixture"] = {}
-        suba = bigdata["mixture"]
     if "big" == line: 
         bigdata["big"] = {}
         suba = bigdata["big"]
@@ -134,23 +126,21 @@ for size in means:
         speedups[size][cores] = [speedup]
 
 small = [x[-1] for x in speedups['small'].values()]
-mixture = [x[-1] for x in speedups['mixture'].values()]
 big = [x[-1] for x in speedups['big'].values()]
 
 # create graph
 xval = [1, 2, 4, 6, 8, 10, 12]
 
 plt.plot(xval, small, label = "small")
-plt.plot(xval, mixture, label = "mixture")
 plt.plot(xval, big, label = "big")
 plt.xlabel('Number of Threads')
 plt.ylabel('Speedup')
-plt.title('Speedup of stealing algo processing various picture sizes')
+plt.title('Speedup of MapReduce processing various picture sizes with stealing executor')
 plt.xticks(xval, ["1","2", "4", "6", "8", "10", "12"])
 
 plt.legend(loc='upper left') 
 
 
-plt.savefig('Steal_speedup.png')
+plt.savefig('MapReduce_steal_speedup.png')
 
 # # #Script generated in collaboration with Maggie Zhao
