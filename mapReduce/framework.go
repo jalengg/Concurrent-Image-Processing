@@ -65,6 +65,9 @@ func (mapReduce *MapReduce) Call() map[int]float64{
 	for targetNode, future := range reducerFutures {
 		reduceResult := future.Get().(float64)
 		result[targetNode] = reduceResult
+		mapReduce.executor.Shutdown()
 	}
 	return result
 }
+
+

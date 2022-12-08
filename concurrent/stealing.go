@@ -3,7 +3,6 @@ package concurrent
 import (
 	"math/rand"
 	"sync"
-	"fmt"
 )
 
 type SCtx struct { //stealing context
@@ -38,16 +37,16 @@ func (SCtx *SCtx) run(threadID int) {
 	
 	task := SCtx.queues[threadID].PopBottom()
 
-	
 	for {
 		for task != nil {
 			future := task.(*shareFuture)
-			
-			fmt.Println(future.task)
-			callable := future.task.(Callable)
-			
+			callable, yes := future.task.(Callable)
+			if yes {
 				future.result = callable.Call()
-			
+			} else {
+				runnable := future.task.(Runnable)
+				runnable.Run() 
+			}
 			future.wg.Done()
 
 			task = SCtx.queues[threadID].PopBottom()

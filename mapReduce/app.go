@@ -4,6 +4,7 @@ import (
 	"math/rand"
 	"math"
 	"fmt"
+	"time"
 
 )
 
@@ -15,6 +16,7 @@ type SSSP struct {
 
 //generate a random single source shortest path probelm 
 func NewGraph(size int) *SSSP { //size dictates the number of nodes in the graph
+	rand.Seed(time.Now().UnixNano())
 	graphSize := size
 	newGraph := make(map[int][]int)
 	for i:=0; i<graphSize; i++ {
@@ -56,7 +58,7 @@ func (supplier *mapperSupplier) Get(inputNode int) *Mapper{
 }
 
 
-func (mapper *Mapper)Call() map[int]float64{ //returns all the nodes reachable from input node and the possible distance from the source node
+func (mapper *Mapper)Call() interface{}{ //returns all the nodes reachable from input node and the possible distance from the source node
 	output := make(map[int]float64)
 	distance := mapper.distance
 	output[mapper.inputNode] = distance
@@ -89,7 +91,7 @@ func (supplier *reducerSupplier) Get(targetNode int, distances []float64) *Reduc
 }
 
 
-func (reducer *Reducer) Call() float64{ //returns the minimum distance to targetNode
+func (reducer *Reducer) Call() interface{} { //returns the minimum distance to targetNode
 	min := reducer.curDist
 	for _, d := range reducer.distances {
 		if d < min {
@@ -124,7 +126,7 @@ func (problem *SSSP) updateAndCompare(new map[int]float64, epsilon float64) bool
 	return diff < epsilon
 }
 
-func (problem *SSSP) display() {
+func (problem *SSSP) Display() {
 	fmt.Println("Adjacency Matrix:")
 	for key, value := range problem.graph {
 		fmt.Println(key, ": ", value)
@@ -136,23 +138,18 @@ func (problem *SSSP) display() {
 	}
 }
 
-func RunMap(problem *SSSP, capacity int, mode string) {
+func RunMap(problem *SSSP, capacity int, mode string) *SSSP{
 
-	fmt.Println(problem.graph)
-
-	mapReducer := NewMapReduce(capacity, mode)
-	mapReducer.SetMapperSupplier(problem.Mapper())
-	mapReducer.SetReducerSupplier(problem.Reducer())
-
+	
 	done := false;
 	for !done {
+		mapReducer := NewMapReduce(capacity, mode)
+		mapReducer.SetMapperSupplier(problem.Mapper())
+		mapReducer.SetReducerSupplier(problem.Reducer())
 		
 		mapReducer.SetInput(problem.listOfFiniteDistanceNodes())
 		
 		done = problem.updateAndCompare(mapReducer.Call(), 3)
-		
 	}
-	
-	problem.display()
-
+	return problem
 }

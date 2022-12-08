@@ -44,40 +44,40 @@ import os
 
 ## Pipeline
 
-os.system("echo small > output_pipeline")
-os.system("echo ================ >> output_pipeline")
-os.system("echo 1 >> output_pipeline")
+os.system("echo small > output_balance")
+os.system("echo ================ >> output_balance")
+os.system("echo 1 >> output_balance")
 for i in range(5):
-    os.system("(time go run ../editor/editor.go small) 2>> output_pipeline")
+    os.system("(time go run ../editor/editor.go small) 2>> output_balance")
 for core in range(2, 13, 2):
-    os.system("echo " + str(core) + " >> output_pipeline")
+    os.system("echo " + str(core) + " >> output_balance")
     for i in range(5):
         instr = "time go run ../editor/editor.go small pipeline " + str(core)
-        formatted = "(" + instr + ") 2>> output_pipeline"
+        formatted = "(" + instr + ") 2>> output_balance"
         os.system(formatted)
 
-os.system("echo mixture >> output_pipeline")
-os.system("echo ================ >> output_pipeline")
-os.system("echo 1 >> output_pipeline")
+os.system("echo mixture >> output_balance")
+os.system("echo ================ >> output_balance")
+os.system("echo 1 >> output_balance")
 for i in range(5):
-    os.system("(time go run ../editor/editor.go mixture) 2>> output_pipeline")
+    os.system("(time go run ../editor/editor.go mixture) 2>> output_balance")
 for core in range(2, 13, 2):
-    os.system("echo " + str(core) + " >> output_pipeline")
+    os.system("echo " + str(core) + " >> output_balance")
     for i in range(5):
         instr = "time go run ../editor/editor.go mixture pipeline " + str(core)
-        formatted = "(" + instr + ") 2>> output_pipeline"
+        formatted = "(" + instr + ") 2>> output_balance"
         os.system(formatted)
 
-os.system("echo big >> output_pipeline")
-os.system("echo ================ >> output_pipeline")
-os.system("echo 1 >> output_pipeline")
+os.system("echo big >> output_balance")
+os.system("echo ================ >> output_balance")
+os.system("echo 1 >> output_balance")
 for i in range(5):
-    os.system("(time go run ../editor/editor.go big) 2>> output_pipeline")
+    os.system("(time go run ../editor/editor.go big) 2>> output_balance")
 for core in range(2, 13, 2):
-    os.system("echo " + str(core) + " >> output_pipeline")
+    os.system("echo " + str(core) + " >> output_balance")
     for i in range(5):
         instr = "time go run ../editor/editor.go big pipeline " + str(core)
-        formatted = "(" + instr + ") 2>> output_pipeline"
+        formatted = "(" + instr + ") 2>> output_balance"
         os.system(formatted)
 
 #Script generated in collaboration with Maggie Zhao

@@ -66,15 +66,13 @@ func (queue *queue) IsEmpty() bool{
 }
 
 func (queue *queue) PopTop() Task{
-
-	
+	queue.mu.Lock() 
+	defer queue.mu.Unlock()
 
 	if (queue.IsEmpty()) {
 		return nil  //check again to make sure no one beat us
 	} else {
-		queue.mu.Lock() 
-		defer queue.mu.Unlock()
-
+	
 		queue.size--
 		temp := queue.top
 		queue.top = queue.top.next
@@ -90,11 +88,12 @@ func (queue *queue) PopTop() Task{
 }
 
 func (queue *queue) PopBottom() Task {
+	queue.mu.Lock() 
+	defer queue.mu.Unlock()
+
 	if (queue.IsEmpty()) {
 		return nil
 	} else {
-		queue.mu.Lock() 
-		defer queue.mu.Unlock()
 
 		queue.size--
 		temp := queue.bottom
