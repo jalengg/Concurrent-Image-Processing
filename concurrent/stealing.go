@@ -54,6 +54,10 @@ func (SCtx *SCtx) run(threadID int) {
 		} 
 
 		for task == nil {
+			if SCtx.queues[threadID].Size() == 0 && SCtx.shutdown {
+				return
+			}
+			
 			rand.Seed(time.Now().UnixNano())
 			victim := rand.Intn(SCtx.capacity) 
 			if !SCtx.queues[victim].IsEmpty() {

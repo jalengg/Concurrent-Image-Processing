@@ -43,41 +43,41 @@ for core in range(2, 13, 2):
         os.system(formatted)
 
 ## Balance
+# 
+os.system("echo small > output_balance")
+os.system("echo ================ >> output_balance")
+os.system("echo 1 >> output_balance")
+for i in range(3):
+    os.system("(time go run ../editor/editor.go small) 2>> output_balance")
+for core in range(2, 13, 2):
+    os.system("echo " + str(core) + " >> output_balance")
+    for i in range(3):
+        instr = "time go run ../editor/editor.go small balance " + str(core)
+        formatted = "(" + instr + ") 2>> output_balance"
+        os.system(formatted)
 
-# os.system("echo small > output_balance")
-# os.system("echo ================ >> output_balance")
-# os.system("echo 1 >> output_balance")
-# for i in range(3):
-    # os.system("(time go run ../editor/editor.go small) 2>> output_balance")
-# for core in range(2, 13, 2):
-    # os.system("echo " + str(core) + " >> output_balance")
-    # for i in range(3):
-        # instr = "time go run ../editor/editor.go small balance " + str(core)
-        # formatted = "(" + instr + ") 2>> output_balance"
-        # os.system(formatted)
-# 
-# os.system("echo mixture >> output_balance")
-# os.system("echo ================ >> output_balance")
-# os.system("echo 1 >> output_balance")
-# for i in range(3):
-    # os.system("(time go run ../editor/editor.go mixture) 2>> output_balance")
-# for core in range(2, 13, 2):
-    # os.system("echo " + str(core) + " >> output_balance")
-    # for i in range(3):
-        # instr = "time go run ../editor/editor.go mixture balance " + str(core)
-        # formatted = "(" + instr + ") 2>> output_balance"
-        # os.system(formatted)
-# 
-# os.system("echo big >> output_balance")
-# os.system("echo ================ >> output_balance")
-# os.system("echo 1 >> output_balance")
-# for i in range(3):
-    # os.system("(time go run ../editor/editor.go big) 2>> output_balance")
-# for core in range(2, 13, 2):
-    # os.system("echo " + str(core) + " >> output_balance")
-    # for i in range(3):
-        # instr = "time go run ../editor/editor.go big balance " + str(core)
-        # formatted = "(" + instr + ") 2>> output_balance"
-        # os.system(formatted)
-# 
+os.system("echo mixture >> output_balance")
+os.system("echo ================ >> output_balance")
+os.system("echo 1 >> output_balance")
+for i in range(3):
+    os.system("(time go run ../editor/editor.go mixture) 2>> output_balance")
+for core in range(2, 13, 2):
+    os.system("echo " + str(core) + " >> output_balance")
+    for i in range(3):
+        instr = "time go run ../editor/editor.go mixture balance " + str(core)
+        formatted = "(" + instr + ") 2>> output_balance"
+        os.system(formatted)
+
+os.system("echo big >> output_balance")
+os.system("echo ================ >> output_balance")
+os.system("echo 1 >> output_balance")
+for i in range(3):
+    os.system("(time go run ../editor/editor.go big) 2>> output_balance")
+for core in range(2, 13, 2):
+    os.system("echo " + str(core) + " >> output_balance")
+    for i in range(3):
+        instr = "time go run ../editor/editor.go big balance " + str(core)
+        formatted = "(" + instr + ") 2>> output_balance"
+        os.system(formatted)
+
 #Script generated in collaboration with Maggie Zhao

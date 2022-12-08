@@ -1,192 +1,218 @@
 small
 ================
 1
-6.44user 0.15system 0:06.66elapsed 99%CPU (0avgtext+0avgdata 55780maxresident)k
-123208inputs+41864outputs (2509major+39139minor)pagefaults 0swaps
-6.38user 0.09system 0:19.12elapsed 33%CPU (0avgtext+0avgdata 57076maxresident)k
-472inputs+41024outputs (1033major+28448minor)pagefaults 0swaps
-6.29user 0.08system 0:06.94elapsed 91%CPU (0avgtext+0avgdata 57076maxresident)k
-0inputs+41024outputs (1029major+28759minor)pagefaults 0swaps
+6.36user 0.04system 0:16.58elapsed 38%CPU (0avgtext+0avgdata 55588maxresident)k
+0inputs+41024outputs (1027major+27189minor)pagefaults 0swaps
+6.26user 0.08system 0:06.37elapsed 99%CPU (0avgtext+0avgdata 55880maxresident)k
+0inputs+41024outputs (1027major+28070minor)pagefaults 0swaps
+6.28user 0.12system 0:11.61elapsed 55%CPU (0avgtext+0avgdata 57540maxresident)k
+0inputs+41024outputs (1027major+28444minor)pagefaults 0swaps
 2
-7.30user 0.08system 0:03.49elapsed 211%CPU (0avgtext+0avgdata 237668maxresident)k
-0inputs+41032outputs (1028major+64168minor)pagefaults 0swaps
-6.71user 0.10system 0:03.21elapsed 211%CPU (0avgtext+0avgdata 254056maxresident)k
-0inputs+41040outputs (1028major+66441minor)pagefaults 0swaps
-6.67user 0.12system 0:07.38elapsed 92%CPU (0avgtext+0avgdata 247916maxresident)k
-0inputs+41032outputs (1028major+67786minor)pagefaults 0swaps
+7.17user 0.10system 0:03.46elapsed 210%CPU (0avgtext+0avgdata 237624maxresident)k
+0inputs+41032outputs (1027major+64077minor)pagefaults 0swaps
+6.73user 0.10system 0:03.22elapsed 212%CPU (0avgtext+0avgdata 243928maxresident)k
+0inputs+41024outputs (1027major+63803minor)pagefaults 0swaps
+7.07user 0.06system 0:03.40elapsed 209%CPU (0avgtext+0avgdata 243832maxresident)k
+0inputs+41024outputs (1027major+65293minor)pagefaults 0swaps
 4
-8.38user 0.09system 0:02.17elapsed 390%CPU (0avgtext+0avgdata 239488maxresident)k
-88inputs+41032outputs (1029major+62195minor)pagefaults 0swaps
-8.56user 0.10system 0:02.27elapsed 381%CPU (0avgtext+0avgdata 245780maxresident)k
-88inputs+41040outputs (1029major+64678minor)pagefaults 0swaps
-8.29user 0.11system 0:02.19elapsed 383%CPU (0avgtext+0avgdata 239596maxresident)k
-0inputs+41040outputs (1028major+67468minor)pagefaults 0swaps
+7.54user 0.09system 0:01.99elapsed 382%CPU (0avgtext+0avgdata 243180maxresident)k
+0inputs+41032outputs (1027major+60987minor)pagefaults 0swaps
+7.87user 0.23system 0:02.27elapsed 356%CPU (0avgtext+0avgdata 256996maxresident)k
+256inputs+41024outputs (1028major+64810minor)pagefaults 0swaps
+7.70user 0.14system 0:02.07elapsed 378%CPU (0avgtext+0avgdata 245796maxresident)k
+0inputs+41024outputs (1027major+65437minor)pagefaults 0swaps
 6
-9.48user 0.15system 0:01.87elapsed 513%CPU (0avgtext+0avgdata 241516maxresident)k
-0inputs+41032outputs (1028major+67198minor)pagefaults 0swaps
-9.48user 0.17system 0:01.88elapsed 512%CPU (0avgtext+0avgdata 241732maxresident)k
-0inputs+41040outputs (1030major+69783minor)pagefaults 0swaps
-9.80user 0.16system 0:01.96elapsed 506%CPU (0avgtext+0avgdata 246164maxresident)k
-0inputs+41032outputs (1028major+63633minor)pagefaults 0swaps
+8.49user 0.14system 0:01.89elapsed 456%CPU (0avgtext+0avgdata 247892maxresident)k
+0inputs+41024outputs (1027major+63744minor)pagefaults 0swaps
+8.48user 0.17system 0:01.77elapsed 487%CPU (0avgtext+0avgdata 256080maxresident)k
+0inputs+41024outputs (1027major+69242minor)pagefaults 0swaps
+8.43user 0.18system 0:01.82elapsed 472%CPU (0avgtext+0avgdata 244020maxresident)k
+0inputs+41024outputs (1027major+66659minor)pagefaults 0swaps
 8
-10.76user 0.19system 0:01.76elapsed 621%CPU (0avgtext+0avgdata 246280maxresident)k
-0inputs+41032outputs (1028major+68668minor)pagefaults 0swaps
-10.76user 0.19system 0:01.76elapsed 621%CPU (0avgtext+0avgdata 250348maxresident)k
-24inputs+41040outputs (1029major+66764minor)pagefaults 0swaps
-11.12user 0.16system 0:01.82elapsed 618%CPU (0avgtext+0avgdata 246188maxresident)k
-0inputs+41032outputs (1028major+67167minor)pagefaults 0swaps
+9.74user 0.17system 0:01.82elapsed 545%CPU (0avgtext+0avgdata 245864maxresident)k
+0inputs+41024outputs (1027major+63350minor)pagefaults 0swaps
+10.69user 0.21system 0:02.66elapsed 409%CPU (0avgtext+0avgdata 246300maxresident)k
+0inputs+41032outputs (1027major+67802minor)pagefaults 0swaps
+9.06user 0.22system 0:01.76elapsed 525%CPU (0avgtext+0avgdata 246432maxresident)k
+0inputs+41024outputs (1027major+64553minor)pagefaults 0swaps
 10
-11.90user 0.20system 0:01.84elapsed 656%CPU (0avgtext+0avgdata 247120maxresident)k
-0inputs+41032outputs (1028major+69480minor)pagefaults 0swaps
-12.07user 0.20system 0:01.90elapsed 645%CPU (0avgtext+0avgdata 254496maxresident)k
-0inputs+41040outputs (1028major+64594minor)pagefaults 0swaps
-11.82user 0.24system 0:01.83elapsed 656%CPU (0avgtext+0avgdata 246512maxresident)k
-0inputs+41032outputs (1028major+66724minor)pagefaults 0swaps
+9.40user 0.22system 0:01.75elapsed 548%CPU (0avgtext+0avgdata 246448maxresident)k
+0inputs+41024outputs (1027major+67665minor)pagefaults 0swaps
+9.84user 0.24system 0:01.83elapsed 550%CPU (0avgtext+0avgdata 241540maxresident)k
+0inputs+41032outputs (1027major+66406minor)pagefaults 0swaps
+9.60user 0.28system 0:01.82elapsed 542%CPU (0avgtext+0avgdata 244900maxresident)k
+0inputs+41024outputs (1027major+70403minor)pagefaults 0swaps
 12
-12.34user 0.23system 0:01.90elapsed 660%CPU (0avgtext+0avgdata 246676maxresident)k
-0inputs+41032outputs (1028major+62622minor)pagefaults 0swaps
-17.22user 0.31system 0:04.17elapsed 420%CPU (0avgtext+0avgdata 255940maxresident)k
-280inputs+41032outputs (1030major+70573minor)pagefaults 0swaps
-12.23user 0.25system 0:01.92elapsed 649%CPU (0avgtext+0avgdata 252728maxresident)k
-0inputs+41032outputs (1028major+66826minor)pagefaults 0swaps
+9.69user 0.26system 0:01.83elapsed 543%CPU (0avgtext+0avgdata 241672maxresident)k
+0inputs+41024outputs (1027major+62332minor)pagefaults 0swaps
+9.45user 0.19system 0:01.77elapsed 545%CPU (0avgtext+0avgdata 242496maxresident)k
+0inputs+41032outputs (1027major+64734minor)pagefaults 0swaps
+9.34user 0.22system 0:01.76elapsed 540%CPU (0avgtext+0avgdata 247192maxresident)k
+0inputs+41024outputs (1027major+67126minor)pagefaults 0swaps
 mixture
 ================
 1
-37.50user 0.17system 0:46.05elapsed 81%CPU (0avgtext+0avgdata 599024maxresident)k
-145016inputs+191992outputs (1028major+90336minor)pagefaults 0swaps
-37.49user 0.23system 0:38.27elapsed 98%CPU (0avgtext+0avgdata 600060maxresident)k
-0inputs+191992outputs (1028major+89708minor)pagefaults 0swaps
-37.49user 0.23system 0:41.46elapsed 90%CPU (0avgtext+0avgdata 600164maxresident)k
-0inputs+191992outputs (1028major+89751minor)pagefaults 0swaps
+37.56user 0.22system 0:40.25elapsed 93%CPU (0avgtext+0avgdata 733380maxresident)k
+0inputs+191984outputs (1027major+98390minor)pagefaults 0swaps
+37.54user 0.26system 0:41.85elapsed 90%CPU (0avgtext+0avgdata 600156maxresident)k
+0inputs+191992outputs (1027major+97667minor)pagefaults 0swaps
+37.49user 0.30system 0:46.63elapsed 81%CPU (0avgtext+0avgdata 600128maxresident)k
+0inputs+191984outputs (1027major+89636minor)pagefaults 0swaps
 2
-45.40user 0.33system 0:22.03elapsed 207%CPU (0avgtext+0avgdata 1703304maxresident)k
-0inputs+191992outputs (1028major+187149minor)pagefaults 0swaps
-46.32user 0.32system 0:26.77elapsed 174%CPU (0avgtext+0avgdata 1705956maxresident)k
-0inputs+191992outputs (1028major+246122minor)pagefaults 0swaps
-43.39user 0.37system 0:22.90elapsed 191%CPU (0avgtext+0avgdata 1705236maxresident)k
-0inputs+191992outputs (1028major+244516minor)pagefaults 0swaps
-4
-61.96user 0.49system 0:16.63elapsed 375%CPU (0avgtext+0avgdata 1801960maxresident)k
-0inputs+192000outputs (1028major+236227minor)pagefaults 0swaps
-59.88user 0.50system 0:15.33elapsed 393%CPU (0avgtext+0avgdata 1801256maxresident)k
-0inputs+191992outputs (1028major+248057minor)pagefaults 0swaps
-60.18user 0.45system 0:16.78elapsed 361%CPU (0avgtext+0avgdata 1801580maxresident)k
-0inputs+191992outputs (1028major+248526minor)pagefaults 0swaps
-6
-65.62user 0.68system 0:20.41elapsed 324%CPU (0avgtext+0avgdata 1897364maxresident)k
-0inputs+191992outputs (1029major+214967minor)pagefaults 0swaps
-72.74user 0.73system 0:15.45elapsed 475%CPU (0avgtext+0avgdata 1799888maxresident)k
-0inputs+191992outputs (1028major+224135minor)pagefaults 0swaps
-75.81user 0.78system 0:15.96elapsed 479%CPU (0avgtext+0avgdata 1897480maxresident)k
-0inputs+191992outputs (1028major+227925minor)pagefaults 0swaps
-8
-79.42user 1.15system 0:16.27elapsed 495%CPU (0avgtext+0avgdata 1701180maxresident)k
-0inputs+191992outputs (1028major+245531minor)pagefaults 0swaps
-69.09user 1.96system 0:24.33elapsed 291%CPU (0avgtext+0avgdata 1799808maxresident)k
-680inputs+192456outputs (1031major+229820minor)pagefaults 0swaps
-58.56user 1.18system 0:15.50elapsed 385%CPU (0avgtext+0avgdata 1801680maxresident)k
-0inputs+191984outputs (1027major+225553minor)pagefaults 0swaps
-10
-59.57user 1.29system 0:15.81elapsed 384%CPU (0avgtext+0avgdata 1898132maxresident)k
-0inputs+191984outputs (1027major+250165minor)pagefaults 0swaps
+48.70user 0.35system 0:23.02elapsed 213%CPU (0avgtext+0avgdata 1801260maxresident)k
+0inputs+191992outputs (1028major+223399minor)pagefaults 0swaps
 panic: sync: negative WaitGroup counter
 
-goroutine 14 [running]:
-sync.(*WaitGroup).Add(0xc0129720a0, 0xffffffffffffffff)
+goroutine 7 [running]:
+sync.(*WaitGroup).Add(0xc0000963a0, 0xffffffffffffffff)
 	/usr/lib/go-1.13/src/sync/waitgroup.go:74 +0x139
 sync.(*WaitGroup).Done(...)
 	/usr/lib/go-1.13/src/sync/waitgroup.go:99
-proj3/concurrent.(*SCtx).run(0xc0000961b0, 0x8)
+proj3/concurrent.(*SCtx).run(0xc0000961b0, 0x1)
 	/home/zhiyuanxie/proj3-shiitavie/concurrent/stealing.go:51 +0x116
 created by proj3/concurrent.NewWorkStealingExecutor
 	/home/zhiyuanxie/proj3-shiitavie/concurrent/stealing.go:31 +0x1e2
 exit status 2
 Command exited with non-zero status 1
-52.99user 1.02system 0:12.74elapsed 423%CPU (0avgtext+0avgdata 1900056maxresident)k
-128inputs+167480outputs (1028major+263415minor)pagefaults 0swaps
-60.31user 1.31system 0:16.53elapsed 372%CPU (0avgtext+0avgdata 1787364maxresident)k
-264inputs+192464outputs (1028major+251023minor)pagefaults 0swaps
+3.81user 0.09system 0:01.46elapsed 265%CPU (0avgtext+0avgdata 381744maxresident)k
+0inputs+14448outputs (1027major+65123minor)pagefaults 0swaps
+48.92user 0.35system 0:23.47elapsed 209%CPU (0avgtext+0avgdata 1801028maxresident)k
+0inputs+191984outputs (1027major+222116minor)pagefaults 0swaps
+4
+54.50user 0.69system 0:15.50elapsed 355%CPU (0avgtext+0avgdata 1801992maxresident)k
+0inputs+191992outputs (1027major+236590minor)pagefaults 0swaps
+53.83user 0.79system 0:15.52elapsed 351%CPU (0avgtext+0avgdata 1799312maxresident)k
+0inputs+191984outputs (1027major+248877minor)pagefaults 0swaps
+64.71user 0.98system 0:24.74elapsed 265%CPU (0avgtext+0avgdata 1801616maxresident)k
+152inputs+191984outputs (1028major+246053minor)pagefaults 0swaps
+6
+60.84user 1.16system 0:17.47elapsed 354%CPU (0avgtext+0avgdata 1801780maxresident)k
+0inputs+191992outputs (1027major+223799minor)pagefaults 0swaps
+59.20user 1.12system 0:15.83elapsed 381%CPU (0avgtext+0avgdata 1801452maxresident)k
+0inputs+191984outputs (1027major+237040minor)pagefaults 0swaps
+59.00user 1.09system 0:15.71elapsed 382%CPU (0avgtext+0avgdata 1897736maxresident)k
+0inputs+191984outputs (1027major+247799minor)pagefaults 0swaps
+8
+panic: sync: negative WaitGroup counter
+
+goroutine 9 [running]:
+sync.(*WaitGroup).Add(0xc0127760d0, 0xffffffffffffffff)
+	/usr/lib/go-1.13/src/sync/waitgroup.go:74 +0x139
+sync.(*WaitGroup).Done(...)
+	/usr/lib/go-1.13/src/sync/waitgroup.go:99
+proj3/concurrent.(*SCtx).run(0xc0000961b0, 0x3)
+	/home/zhiyuanxie/proj3-shiitavie/concurrent/stealing.go:51 +0x116
+created by proj3/concurrent.NewWorkStealingExecutor
+	/home/zhiyuanxie/proj3-shiitavie/concurrent/stealing.go:31 +0x1e2
+exit status 2
+Command exited with non-zero status 1
+48.99user 0.90system 0:11.55elapsed 431%CPU (0avgtext+0avgdata 1801232maxresident)k
+0inputs+138576outputs (1027major+248373minor)pagefaults 0swaps
+58.41user 1.19system 0:15.45elapsed 385%CPU (0avgtext+0avgdata 1799612maxresident)k
+256inputs+191984outputs (1028major+224578minor)pagefaults 0swaps
+58.75user 1.23system 0:15.51elapsed 386%CPU (0avgtext+0avgdata 1801568maxresident)k
+0inputs+191984outputs (1027major+247709minor)pagefaults 0swaps
+10
+58.67user 1.18system 0:15.59elapsed 383%CPU (0avgtext+0avgdata 1899900maxresident)k
+0inputs+191992outputs (1027major+250670minor)pagefaults 0swaps
+60.52user 1.39system 0:16.01elapsed 386%CPU (0avgtext+0avgdata 1801480maxresident)k
+0inputs+191976outputs (1027major+249317minor)pagefaults 0swaps
+58.12user 1.32system 0:15.51elapsed 383%CPU (0avgtext+0avgdata 1897620maxresident)k
+0inputs+191976outputs (1027major+241728minor)pagefaults 0swaps
 12
-58.91user 1.18system 0:15.59elapsed 385%CPU (0avgtext+0avgdata 1801412maxresident)k
-0inputs+191992outputs (1027major+248709minor)pagefaults 0swaps
-58.92user 1.14system 0:15.60elapsed 384%CPU (0avgtext+0avgdata 1798972maxresident)k
-0inputs+191984outputs (1027major+222811minor)pagefaults 0swaps
-59.17user 1.34system 0:15.67elapsed 386%CPU (0avgtext+0avgdata 1801268maxresident)k
-0inputs+191976outputs (1028major+249025minor)pagefaults 0swaps
+60.26user 1.23system 0:16.05elapsed 382%CPU (0avgtext+0avgdata 1809708maxresident)k
+0inputs+191992outputs (1027major+226632minor)pagefaults 0swaps
+59.04user 1.26system 0:15.80elapsed 381%CPU (0avgtext+0avgdata 1799792maxresident)k
+0inputs+191984outputs (1027major+247924minor)pagefaults 0swaps
+59.06user 1.32system 0:15.70elapsed 384%CPU (0avgtext+0avgdata 1799664maxresident)k
+0inputs+191992outputs (1027major+248070minor)pagefaults 0swaps
 big
 ================
 1
-95.37user 0.32system 1:40.68elapsed 95%CPU (0avgtext+0avgdata 816876maxresident)k
-311408inputs+456728outputs (1027major+77520minor)pagefaults 0swaps
-95.27user 0.40system 1:57.87elapsed 81%CPU (0avgtext+0avgdata 915080maxresident)k
-0inputs+456736outputs (1027major+78979minor)pagefaults 0swaps
-95.32user 0.34system 1:36.79elapsed 98%CPU (0avgtext+0avgdata 851808maxresident)k
-0inputs+456728outputs (1027major+78647minor)pagefaults 0swaps
+95.25user 0.37system 1:38.87elapsed 96%CPU (0avgtext+0avgdata 915072maxresident)k
+0inputs+456736outputs (1027major+79775minor)pagefaults 0swaps
+95.16user 0.32system 1:37.21elapsed 98%CPU (0avgtext+0avgdata 816876maxresident)k
+0inputs+456728outputs (1027major+78012minor)pagefaults 0swaps
+95.22user 0.42system 1:37.58elapsed 98%CPU (0avgtext+0avgdata 815764maxresident)k
+0inputs+456728outputs (1027major+77611minor)pagefaults 0swaps
 2
-99.66user 0.80system 0:50.13elapsed 200%CPU (0avgtext+0avgdata 3818224maxresident)k
-0inputs+456728outputs (1027major+476915minor)pagefaults 0swaps
-108.58user 0.84system 0:56.80elapsed 192%CPU (0avgtext+0avgdata 3721428maxresident)k
-0inputs+456736outputs (1027major+452861minor)pagefaults 0swaps
-107.87user 0.84system 0:50.73elapsed 214%CPU (0avgtext+0avgdata 3721148maxresident)k
-0inputs+456728outputs (1027major+497616minor)pagefaults 0swaps
+103.74user 0.82system 0:53.25elapsed 196%CPU (0avgtext+0avgdata 3817496maxresident)k
+0inputs+456728outputs (1027major+454107minor)pagefaults 0swaps
+102.49user 0.83system 0:49.33elapsed 209%CPU (0avgtext+0avgdata 3819520maxresident)k
+0inputs+456736outputs (1027major+454033minor)pagefaults 0swaps
+101.99user 0.76system 0:47.46elapsed 216%CPU (0avgtext+0avgdata 3820756maxresident)k
+0inputs+456728outputs (1027major+492767minor)pagefaults 0swaps
 4
-114.27user 1.03system 0:29.11elapsed 396%CPU (0avgtext+0avgdata 3816804maxresident)k
-0inputs+456728outputs (1027major+478033minor)pagefaults 0swaps
-117.60user 1.27system 0:31.58elapsed 376%CPU (0avgtext+0avgdata 3816924maxresident)k
-0inputs+456736outputs (1027major+501840minor)pagefaults 0swaps
-119.71user 1.10system 0:31.57elapsed 382%CPU (0avgtext+0avgdata 3817276maxresident)k
-0inputs+456728outputs (1027major+402345minor)pagefaults 0swaps
+107.46user 0.92system 0:33.83elapsed 320%CPU (0avgtext+0avgdata 3820924maxresident)k
+136inputs+457208outputs (1028major+531600minor)pagefaults 0swaps
+105.78user 0.92system 0:36.55elapsed 291%CPU (0avgtext+0avgdata 3917672maxresident)k
+0inputs+456736outputs (1027major+457271minor)pagefaults 0swaps
+107.70user 0.95system 0:35.63elapsed 304%CPU (0avgtext+0avgdata 3820888maxresident)k
+0inputs+456728outputs (1027major+492312minor)pagefaults 0swaps
 6
-134.37user 1.51system 0:30.10elapsed 451%CPU (0avgtext+0avgdata 4002492maxresident)k
-0inputs+456728outputs (1027major+476125minor)pagefaults 0swaps
-136.03user 1.80system 0:30.48elapsed 452%CPU (0avgtext+0avgdata 3913220maxresident)k
-0inputs+456736outputs (1027major+503905minor)pagefaults 0swaps
+120.49user 1.12system 0:26.51elapsed 458%CPU (0avgtext+0avgdata 3816744maxresident)k
+0inputs+456728outputs (1027major+490730minor)pagefaults 0swaps
 panic: sync: negative WaitGroup counter
 
-goroutine 18 [running]:
-sync.(*WaitGroup).Add(0xc00009a3d0, 0xffffffffffffffff)
+goroutine 10 [running]:
+sync.(*WaitGroup).Add(0xc000096430, 0xffffffffffffffff)
 	/usr/lib/go-1.13/src/sync/waitgroup.go:74 +0x139
 sync.(*WaitGroup).Done(...)
 	/usr/lib/go-1.13/src/sync/waitgroup.go:99
-proj3/concurrent.(*SCtx).run(0xc00009a1b0, 0x0)
+proj3/concurrent.(*SCtx).run(0xc0000961b0, 0x4)
 	/home/zhiyuanxie/proj3-shiitavie/concurrent/stealing.go:51 +0x116
 created by proj3/concurrent.NewWorkStealingExecutor
 	/home/zhiyuanxie/proj3-shiitavie/concurrent/stealing.go:31 +0x1e2
 exit status 2
 Command exited with non-zero status 1
-103.44user 0.96system 0:19.07elapsed 547%CPU (0avgtext+0avgdata 3672400maxresident)k
-0inputs+304192outputs (1027major+438156minor)pagefaults 0swaps
+95.10user 1.12system 0:18.32elapsed 525%CPU (0avgtext+0avgdata 3696752maxresident)k
+0inputs+286072outputs (1027major+562688minor)pagefaults 0swaps
+123.32user 1.21system 0:27.70elapsed 449%CPU (0avgtext+0avgdata 3818472maxresident)k
+0inputs+456736outputs (1027major+476918minor)pagefaults 0swaps
 8
-155.84user 2.34system 0:27.25elapsed 580%CPU (0avgtext+0avgdata 3716460maxresident)k
-0inputs+456728outputs (1027major+448789minor)pagefaults 0swaps
-155.89user 2.27system 0:26.65elapsed 593%CPU (0avgtext+0avgdata 3914676maxresident)k
-0inputs+456728outputs (1027major+454550minor)pagefaults 0swaps
-159.56user 2.44system 0:29.54elapsed 548%CPU (0avgtext+0avgdata 3812740maxresident)k
-0inputs+456736outputs (1027major+498341minor)pagefaults 0swaps
+136.48user 1.48system 0:27.87elapsed 495%CPU (0avgtext+0avgdata 3716612maxresident)k
+0inputs+456728outputs (1027major+473686minor)pagefaults 0swaps
+132.71user 1.45system 0:37.89elapsed 354%CPU (0avgtext+0avgdata 4014812maxresident)k
+0inputs+456720outputs (1027major+466899minor)pagefaults 0swaps
+137.31user 1.47system 0:25.63elapsed 541%CPU (0avgtext+0avgdata 3915780maxresident)k
+0inputs+456720outputs (1027major+490747minor)pagefaults 0swaps
 10
-158.25user 2.59system 0:26.35elapsed 610%CPU (0avgtext+0avgdata 3914744maxresident)k
-0inputs+456728outputs (1027major+476972minor)pagefaults 0swaps
 panic: sync: negative WaitGroup counter
 
-goroutine 26 [running]:
-sync.(*WaitGroup).Add(0xc00009a400, 0xffffffffffffffff)
+goroutine 14 [running]:
+sync.(*WaitGroup).Add(0xc000082430, 0xffffffffffffffff)
 	/usr/lib/go-1.13/src/sync/waitgroup.go:74 +0x139
 sync.(*WaitGroup).Done(...)
 	/usr/lib/go-1.13/src/sync/waitgroup.go:99
-proj3/concurrent.(*SCtx).run(0xc00009a1b0, 0x8)
+proj3/concurrent.(*SCtx).run(0xc0000821b0, 0x8)
 	/home/zhiyuanxie/proj3-shiitavie/concurrent/stealing.go:51 +0x116
 created by proj3/concurrent.NewWorkStealingExecutor
 	/home/zhiyuanxie/proj3-shiitavie/concurrent/stealing.go:31 +0x1e2
 exit status 2
 Command exited with non-zero status 1
-152.96user 2.19system 0:23.78elapsed 652%CPU (0avgtext+0avgdata 3911728maxresident)k
-0inputs+392024outputs (1027major+452256minor)pagefaults 0swaps
-159.18user 2.55system 0:26.52elapsed 609%CPU (0avgtext+0avgdata 3813496maxresident)k
-0inputs+456736outputs (1027major+467956minor)pagefaults 0swaps
+112.05user 1.58system 0:18.99elapsed 598%CPU (0avgtext+0avgdata 3711384maxresident)k
+0inputs+285680outputs (1027major+476193minor)pagefaults 0swaps
+133.95user 1.83system 0:35.25elapsed 385%CPU (0avgtext+0avgdata 3716640maxresident)k
+0inputs+456728outputs (1027major+484823minor)pagefaults 0swaps
+panic: sync: negative WaitGroup counter
+
+goroutine 11 [running]:
+sync.(*WaitGroup).Add(0xc000082400, 0xffffffffffffffff)
+	/usr/lib/go-1.13/src/sync/waitgroup.go:74 +0x139
+sync.(*WaitGroup).Done(...)
+	/usr/lib/go-1.13/src/sync/waitgroup.go:99
+proj3/concurrent.(*SCtx).run(0xc0000821b0, 0x5)
+	/home/zhiyuanxie/proj3-shiitavie/concurrent/stealing.go:51 +0x116
+created by proj3/concurrent.NewWorkStealingExecutor
+	/home/zhiyuanxie/proj3-shiitavie/concurrent/stealing.go:31 +0x1e2
+exit status 2
+Command exited with non-zero status 1
+117.48user 1.48system 0:21.73elapsed 547%CPU (0avgtext+0avgdata 3811632maxresident)k
+0inputs+372304outputs (1027major+491193minor)pagefaults 0swaps
 12
-160.08user 2.50system 0:27.02elapsed 601%CPU (0avgtext+0avgdata 4006032maxresident)k
-0inputs+456728outputs (1027major+418528minor)pagefaults 0swaps
-159.55user 2.41system 0:26.45elapsed 612%CPU (0avgtext+0avgdata 3915020maxresident)k
-0inputs+456728outputs (1027major+396607minor)pagefaults 0swaps
-159.62user 2.56system 0:26.64elapsed 608%CPU (0avgtext+0avgdata 3915044maxresident)k
-0inputs+456728outputs (1027major+442849minor)pagefaults 0swaps
+138.96user 1.69system 0:25.69elapsed 547%CPU (0avgtext+0avgdata 3915220maxresident)k
+0inputs+456728outputs (1027major+421137minor)pagefaults 0swaps
+137.99user 1.66system 0:39.20elapsed 356%CPU (0avgtext+0avgdata 4012364maxresident)k
+0inputs+456728outputs (1027major+442436minor)pagefaults 0swaps
+130.77user 1.48system 0:27.82elapsed 475%CPU (0avgtext+0avgdata 3915868maxresident)k
+0inputs+456728outputs (1027major+467288minor)pagefaults 0swaps
