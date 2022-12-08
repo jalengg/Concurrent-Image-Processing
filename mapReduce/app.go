@@ -101,6 +101,7 @@ func (reducer *Reducer) Call() interface{} { //returns the minimum distance to t
 	return min
 }
 
+//input is all the correctly reachable nodes distance[node] < Max
 func (problem *SSSP) listOfFiniteDistanceNodes() []int {
 	distances := problem.distances
 	var output []int

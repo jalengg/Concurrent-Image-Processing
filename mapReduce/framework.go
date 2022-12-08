@@ -41,7 +41,7 @@ func (mapReduce *MapReduce) SetInput(inputNodes []int) {
 
 func (mapReduce *MapReduce) Call() map[int]float64{
 	mapperFutures := make(map[int]concurrent.Future)
-	for _, node := range mapReduce.input {   //input is all the correctly reachable nodes distance[node] < Max
+	for _, node := range mapReduce.input {   
 		mapper := mapReduce.mapperSupplier.Get(node) 
 	
 		mapperFutures[node] = mapReduce.executor.Submit(mapper)
