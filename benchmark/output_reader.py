@@ -6,8 +6,8 @@ import xml.etree.ElementTree as ET
 # USAGE: python3 output_reader.py
 
 
-#BSP 
-f = open("output_bsp", "r")
+#Balance
+f = open("output_balance", "r")
 bigdata = {}
 index = ""
 
@@ -77,12 +77,12 @@ plt.xticks(xval, ["1","2", "4", "6", "8", "10", "12"])
 plt.legend(loc='upper left') 
 
 
-plt.savefig('BSP_speedup.png')
+plt.savefig('Balance_speedup.png')
 
 plt.clf()
 
-#Pipeline 
-f = open("output_pipeline", "r")
+#Steal 
+f = open("output_steal", "r")
 bigdata = {}
 index = ""
 
@@ -151,6 +151,6 @@ plt.xticks(xval, ["1","2", "4", "6", "8", "10", "12"])
 plt.legend(loc='upper left') 
 
 
-plt.savefig('Pipeline_speedup.png')
+plt.savefig('Steal_speedup.png')
 
 # # #Script generated in collaboration with Maggie Zhao

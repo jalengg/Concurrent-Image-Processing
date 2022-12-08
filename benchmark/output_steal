@@ -152,19 +152,6 @@ big
 6
 120.49user 1.12system 0:26.51elapsed 458%CPU (0avgtext+0avgdata 3816744maxresident)k
 0inputs+456728outputs (1027major+490730minor)pagefaults 0swaps
-panic: sync: negative WaitGroup counter
-
-goroutine 10 [running]:
-sync.(*WaitGroup).Add(0xc000096430, 0xffffffffffffffff)
-	/usr/lib/go-1.13/src/sync/waitgroup.go:74 +0x139
-sync.(*WaitGroup).Done(...)
-	/usr/lib/go-1.13/src/sync/waitgroup.go:99
-proj3/concurrent.(*SCtx).run(0xc0000961b0, 0x4)
-	/home/zhiyuanxie/proj3-shiitavie/concurrent/stealing.go:51 +0x116
-created by proj3/concurrent.NewWorkStealingExecutor
-	/home/zhiyuanxie/proj3-shiitavie/concurrent/stealing.go:31 +0x1e2
-exit status 2
-Command exited with non-zero status 1
 95.10user 1.12system 0:18.32elapsed 525%CPU (0avgtext+0avgdata 3696752maxresident)k
 0inputs+286072outputs (1027major+562688minor)pagefaults 0swaps
 123.32user 1.21system 0:27.70elapsed 449%CPU (0avgtext+0avgdata 3818472maxresident)k
@@ -176,37 +163,10 @@ Command exited with non-zero status 1
 0inputs+456720outputs (1027major+466899minor)pagefaults 0swaps
 137.31user 1.47system 0:25.63elapsed 541%CPU (0avgtext+0avgdata 3915780maxresident)k
 0inputs+456720outputs (1027major+490747minor)pagefaults 0swaps
-10
-panic: sync: negative WaitGroup counter
-
-goroutine 14 [running]:
-sync.(*WaitGroup).Add(0xc000082430, 0xffffffffffffffff)
-	/usr/lib/go-1.13/src/sync/waitgroup.go:74 +0x139
-sync.(*WaitGroup).Done(...)
-	/usr/lib/go-1.13/src/sync/waitgroup.go:99
-proj3/concurrent.(*SCtx).run(0xc0000821b0, 0x8)
-	/home/zhiyuanxie/proj3-shiitavie/concurrent/stealing.go:51 +0x116
-created by proj3/concurrent.NewWorkStealingExecutor
-	/home/zhiyuanxie/proj3-shiitavie/concurrent/stealing.go:31 +0x1e2
-exit status 2
-Command exited with non-zero status 1
 112.05user 1.58system 0:18.99elapsed 598%CPU (0avgtext+0avgdata 3711384maxresident)k
 0inputs+285680outputs (1027major+476193minor)pagefaults 0swaps
 133.95user 1.83system 0:35.25elapsed 385%CPU (0avgtext+0avgdata 3716640maxresident)k
 0inputs+456728outputs (1027major+484823minor)pagefaults 0swaps
-panic: sync: negative WaitGroup counter
-
-goroutine 11 [running]:
-sync.(*WaitGroup).Add(0xc000082400, 0xffffffffffffffff)
-	/usr/lib/go-1.13/src/sync/waitgroup.go:74 +0x139
-sync.(*WaitGroup).Done(...)
-	/usr/lib/go-1.13/src/sync/waitgroup.go:99
-proj3/concurrent.(*SCtx).run(0xc0000821b0, 0x5)
-	/home/zhiyuanxie/proj3-shiitavie/concurrent/stealing.go:51 +0x116
-created by proj3/concurrent.NewWorkStealingExecutor
-	/home/zhiyuanxie/proj3-shiitavie/concurrent/stealing.go:31 +0x1e2
-exit status 2
-Command exited with non-zero status 1
 117.48user 1.48system 0:21.73elapsed 547%CPU (0avgtext+0avgdata 3811632maxresident)k
 0inputs+372304outputs (1027major+491193minor)pagefaults 0swaps
 12
