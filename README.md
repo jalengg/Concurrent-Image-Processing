@@ -1,8 +1,12 @@
-<<<<<<< Hi!
+Hi!
+
 # Concurrent Image Processing
-This is a project written in C from my parallel programming class MPCS52060
-A concurrent image processing system that parallelizes two dimensional image convolution with >2x speedup. In edition 1, you can find two designs of the concurrent program: Fan-In-Fan-Out Model and Bulk Synchronization Model. In edition 2. 
+
 =======
+
+This is a project written in G for a parallel programming class MPCS 52060.
+It features concurrent image processing system that parallelizes two dimensional image convolution with >2x speedup. In edition 1, you can find two designs of the concurrent program: Fan-In-Fan-Out Model and Bulk Synchronization Model. In edition 2. 
+
 # Edition 1 
 Please make sure you are in the following directory to run the program: 
 ```
@@ -47,4 +51,19 @@ small_IMG_4066_Out.png
 small_IMG_4067_Out.png
 small_IMG_4069_Out.png
 ```
+The structure of the Fan-In-Fan-Out Model is illustrated in the following scheme: 
+<img width="784" alt="image" src="https://user-images.githubusercontent.com/66903483/227790549-befe3ab4-a609-4324-ac75-6e8943b60b1a.png">
+
+The structure of the Bulk Synchronization Model is illustrated in the following scheme: 
+
+<img width="552" alt="image" src="https://user-images.githubusercontent.com/66903483/227790632-25602670-76a1-483c-8e91-f91882927327.png">
+
+In ./edition_1/benchmark, you can find all relevant benchmarking pythong and bash scripts. Additionally, there is a detailed report for the system there. 
+
+> BSP speedup increases to around 2 as thread number increases to 6, after which the speedup plateaus around 2 regardless of picture size. This eventual plateau is expected as BSP has a global synchronization step which create a bottleneck: no matter how fast each super-step is, the global synchronization step dictates the fastest speed-up as the global synchronization step takes constant time, can’t be parallelized, and has to happen when all goroutines are paused.
+Pipeline speedup, on the other hand, seems uniform across thread numbers. The speedup for big pictures with 12 threads is about the same as the speedup with 2 threads, which is around 2.5. This also make sense because the pipeline implementation creates a total of N*N goroutines for each run, where N is the command line input thread number. In other words, when you put 2 in the command line, the program actually spawns a total of 4 goroutines. This quickly exhausts physical cores and the advantage of physical concurrency, and the context-switching has to be coordinated by the scheduler to handle application concurrency. This scheduling and context switching overhead cannot be parallelized and become the upper bound of the speedup graph.
+
+<img width="588" alt="image" src="https://user-images.githubusercontent.com/66903483/227790826-11956bbf-9106-4e62-9773-f7c9cda620f2.png">
+<img width="595" alt="image" src="https://user-images.githubusercontent.com/66903483/227790868-ba5ffcaa-819f-467e-a143-cbf33f08579a.png">
+
 >>>>>>> 2a79667
