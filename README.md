@@ -69,6 +69,8 @@ Pipeline speedup, on the other hand, seems uniform across thread numbers. The sp
 # Edition 2
 
 Edition 2 is set up in a similar structure as in edition 1, but used different synchronization techniques: it utilizes WorkStealing/WorkBalancing Algorithms and MapReduce structure. For a detailed report, please go to [Edition2 Report](/edition2_new/proj3%20report.pdf)
+Speedup after Parallelization: 
+<img width="455" alt="image" src="https://user-images.githubusercontent.com/66903483/227795012-e34b9cc1-1ac6-4030-9c3d-b631c11b3849.png">
 
 Scheme for MapReduce: 
 <img width="528" alt="image" src="https://user-images.githubusercontent.com/66903483/227794897-c7010eb5-986c-4152-8054-9b854ebc3871.png">
